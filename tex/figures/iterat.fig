@@ -1,0 +1,42 @@
+#FIG 3.2  Produced by xfig version 3.2.8
+# File(8.3): iterat.fig
+#
+# Digital TMVG strategy iteration loops to get frame agreement embedded
+# strategy implementation created for ecosystem creation - xfig FIGure.
+#
+# Tue Aug 23 11:11:11 EEST 2022 the with xfig 3.2.8 :
+# http://packages.debian.org/xfig
+# http://packages.ubuntu.com/xfig
+# file:///usr/share/doc/xfig/xfig_ref_en.pdf
+# Iterative planning loops presented on NRWA Conference 2022 at Tampere by N.N.
+# I'm not capable to trustable recall name based to confrence program abstracts
+# http://nrwa.se/wp-content/uploads/2022/10/NRWC-2022-Conference-Programme-final.pdf
+# 
+# Original models belongs to respective owners, my creativite addon is
+# licensed under CC-BY-SA licensing scheme. BR Ari Potkonen :-) .
+# 
+# Any of the trademarks, service marks, collective marks, design rights, or
+# similar rights that are mentioned, used, or cited are the property of their
+# respective owners. Their use here does not imply that you may use them for
+# any purpose other than for the same or a similar informational use as
+# contemplated by the original author of document licensed under the CC-BY-SA
+# licensing scheme. Author cannot grant any rights to use any otherwise
+# protected materials. Your use of any such or similar incorporeal property is
+# at your own risk.
+Landscape
+Center
+Metric
+A4
+100.0
+Single
+-2
+1200 2
+4 1 0 0 -1 -1 18 0.0 4 195 0 6750 360 ITERATION LOOPS\001
+1 2 0 1 0 7 0 -1 -1 0.0 1 0.0 6750 952 1260 500 0 0 0 0
+4 1 0 0 -1 -1 18 0.0 4 195 0 6750 1700 Vendor Services\001
+1 2 0 1 0 7 0 -1 -1 0.0 1 0.0 6750 1152 1980 700 0 0 0 0
+4 1 0 0 -1 -1 18 0.0 4 195 0 6750 2100 Vendor Inclusion\001
+1 2 0 1 0 7 0 -1 -1 0.0 1 0.0 6750 1952 4410 1500 0 0 0 0
+4 1 0 0 -1 -1 18 0.0 4 195 0 6750 3700 Market Inclusion\001
+1 2 0 1 0 7 0 -1 -1 0.0 1 0.0 6750 2252 5940 1800 0 0 0 0
+4 1 0 0 -1 -1 18 0.0 4 195 0 6750 4350 All Parties Platform Services\001

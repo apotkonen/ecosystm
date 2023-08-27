@@ -1,0 +1,984 @@
+% BIBTEX Format
+% article audio bibnote book bookinbook booklet conference collection
+% commentary conference customa customb customc customd custome customf
+% dataset electronic image inbook incollection inproceedings inreference
+% juridiscation legal letter manual mastersthesis misc movie music mvbook
+% mvcollection mvproceesings mvreference online patent performance periodical
+% phdthesis proceedings reference report, techreport review set software
+% standard suppbook suppcollection suppperiodical thesis unpublished video www
+% xdata
+%
+% abstract address annote author booktitle Email chapter crossref doi edition
+% editor howpublished institution isbn issn journal key month note number
+% organization pages publisher school series title type url volume year
+%
+% FORMAT
+% @www{NameYear,
+% title = {Title},
+% author = {Author},
+% year = {Year},
+% url = {http://},
+% note = {Note}}
+% https://github.com/search?q=38db172d13962ea177c00c9a3b4b3169b317e94b&type=Commits
+% gh search commits --hash=8dd03144ffdc6c0d486d6b705f9c7fba871ee7c3
+% 
+% Umlaut etc. hast to be "backslashed" for pure ASCII to avoid any problems
+% when files are transferred between different peoples and systems.
+% file -i biblatex.bib
+% If bibliography file is "contaminated" with other codings you can see byte
+% positions with iconv, which list which bytes can't be directly transferred to
+% ascii and then stops.
+% iconv -t ascii biblatex.bib
+% Visual editor "vi" allows to jump given byte position with the goto command.
+% biber --tool --validate-datamodel <filename>.bib
+% /usr/share/texlive/texmf-dist/scripts/bibcop/bibcop.pl
+%
+% http://bibtexsearch.com
+% http://wikibooks.org/wiki/LaTeX
+% http://wikibooks.org/wiki/TeX
+% http://wikipedia.org/wiki/BibTeX
+% http://bibtex.com/g/bibtex-format
+% http://bibtex.org/Format
+% http://dblp.org
+% http://semanticscholar.org
+% http://citeseer.ist.psu.edu
+% http://youtube.com/@selfpublishingcom
+% http://youtube.com/@DaleLRoberts
+% http://youtube.com/@1MKWilliams
+% http://theurbanwriters.com/blogs/publishing/7-steps-to-self-publishing-on-google-play-books-in-2022
+% Narrated by: Google Play Autonarrated voice
+% http://play.google.com/about/giftcards/#where-to-buy
+% http://play.google.com/store/books
+% https://play.google.com/redeem
+% http://support.google.com/books/partner/answer/3289675?hl=en
+% http://support.google.com/books/partner/answer/3316879?hl=en
+% http://support.google.com/books/partner/answer/107073?hl=en
+% http://support.google.com/books/partner/answer/3431108?hl=en
+% http://wikipedia.org/wiki/International_Standard_Serial_Number
+% http://self-publishingschool.com/how-to-get-an-isbn
+% http://wikipedia.org/wiki/ISBN
+% http://isbn-international.org
+% http://issn.org
+% http://road.issn.org
+% http://issn.org/services/subscribe-to-the-register/pricing
+% http://aajanki.github.io/yle-dl/index-en.html
+% http://tex.stackexchange.com/questions/413385/beamer-how-to-make-url-big
+% http://tex.stackexchange.com/questions/67446/change-colour-of-boxes-surrounding-links-in-hyperref
+% http://stackoverflow.com/questions/2625714/linebreak-in-url-with-bibtex-and-hyperref-package
+% http://tex.stackexchange.com/questions/26174/allow-line-break-but-without-inserting-a-dash
+% http://tex.stackexchange.com/questions/3033/forcing-linebreaks-in-url
+
+@book{Ecosystm,
+ title = {{Ecosystem}},
+ author = {Potkonen, Ari},
+ publisher = {Potkonen Ari},
+ edition = {DRAFT},
+ year = {2023},
+ doi = {},
+ note = {\url{http://github.com/apotkonen/ecosystm}},
+ url = {https://raw.githubusercontent.com/apotkonen/ecosystm/main/ecosystm.pdf}
+}
+
+@booklet{DayTax,
+ title = {{Daily Tax}},
+ author = {Potkonen, Ari},
+ publisher = {Potkonen Ari},
+ edition = {DRAFT},
+ year = {2023},
+ doi = {},
+ note = {\url{http://github.com/apotkonen/dailytax}},
+ url = {https://raw.githubusercontent.com/apotkonen/dailytax/main/dailytax.pdf}
+}
+
+@legal{CC-BY-SA-40,
+ author={Creative Commons},
+ title={Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)},
+ publisher={Creative Commons Corporation},
+ year={2023},
+ url={http://creativecommons.org/licenses/by-sa/4.0/legalcode}
+%note={http://creativecommons.org/licenses/by-sa/4.0}
+}
+
+% https://tem.fi/en/-/report-diverse-responsible-and-competent-domestic-ownership-needed-to-strengthen-investments-growth-and-wellbeing
+@report{TEM_2022_9, %https://julkaisut.valtioneuvosto.fi/handle/10024/163829
+%https://julkaisut.valtioneuvosto.fi/bitstream/handle/10024/163829/TEM_2022_9.pdf
+ series = {Publications of the Ministry of Economic Affairs and Employment},
+ title = {Vision 2030 : Towards a responsible and competent ownership society},
+ author = {Juha Sipil\"a - Philip Aminoff - Kari Jussi Aho - Jenny Hasu - Johanna Ik\"aheimo - Sari Lounasmeri - Jyrki M\"akynen},
+ publisher = {Ministry of Economic Affairs and Employment}, % 24.3.2021 10.32
+ year = {2021}, % 2022-02-11
+ note = {Page 20: "It will be examined whether the equity savings account can be made part of the maternity package. State of Finland will open a 'child's equity savings account' for each new-born resident of Finland and donate EUR 300 to each account."},
+ url = {http://urn.fi/URN:ISBN:978-952-327-646-8}
+}
+%http://vm.fi/hanke?tunnus=VM112%3A00%2F2018
+%http://finlex.fi/fi/laki/alkup/2019/20190681
+%http://finlex.fi/fi/laki/ajantasa/2019/20190680
+%Osakesaastotili -- equity savings account
+%http://suomisanakirja.fi/osakes%C3%A4%C3%A4st%C3%A4minen
+%http://suomisanakirja.fi/osakes%C3%A4%C3%A4st%C3%A4j%C3%A4
+%https://www.finanssiala.fi/wp-content/uploads/2023/05/fa_saastaminen_sijoittaminen_vaurastuminen-_17052023.pdf
+%Arvo-osuustili -- value account
+%http://suomisanakirja.fi/arvo-osuus
+%http://suomisanakirja.fi/arvo-osuusrekisteri
+
+%http://yle.fi/a/3-11890055 % Paper: Many equity savings accounts empty
+%http://yle.fi/a/3-10540749 % Osakes\"a\"ast\"otilit tulossa k\"aytt\"o\"on vuonna 2020 -- hallitukselta esitys pitk\"a\"an esill\"a olleista tileist\"a
+%http://yle.fi/a/3-10377105 Suomeen tulee uusi sijoitustapa -- Mutta mik\"a ihme osakes\"a\"ast\"otili on?
+%http://yle.fi/a/3-10717893 % Uusi osakes\"a\"at\"otili her\"att\"anyt suurta kiinnostusta jo nyt: "Ainakin 50 000 tili\"a avataan ensi vuonna"
+%http://yle.fi/a/3-11852724 % Osakes\"a\"ast\"otili joka vauvalle? Ty\"oryhm\"a: Valtio lahjoittaa 300 euroa ik\"a\"an kuin bonuksena
+%http://yle.fi/a/74-20038160 % Uusi hallitus haluaa vauvoista sijoittajia -- Kela: Vauvan osakepotti leikkaisi perheen tukia nykyj\"arjestelm\"ass\"a
+%Vastasyntyneiden osakes\"a\"ast\"otiliin liittyy viela runsaasti avoimia kysymyksi\"a. Valmistelusta vastaa valtiovarainministeri\"o.
+%http://yle.fi/a/74-20042628 Nuori sijoittaja: Vauvojen osakes\"a\"ast\"otili voisi tuottaa tuhansia euroja
+%http://yle.fi/a/74-20034479 % VM: Kokoomuksen tavoite osakes\"a\"ast\"otilin yl\"arajan poistosta maksaa noin 200 miljoonaa euroa
+
+
+@www{VN_202303241233,
+ title = {Kohti nopeasykkeisemp\"a\"a jatkuvaa oppimista},
+ author = {Petri Lempinen},
+ url = {http://valtioneuvosto.fi/-/1410845/kohti-nopeasykkeisempaa-jatkuvaa-oppimista}
+}
+
+%note = {11.5.2007/527}
+@legal{LEX_2007/527,
+ title = {Luottotietolaki},
+ author = {Oikeusministeri\"o},
+ publisher = {OM},
+ year = {2007},
+ url = {http://finlex.fi/fi/laki/ajantasa/2007/20070527}
+}
+
+%http://vm.fi/tiedonhallintalautakunta
+%http://vm.fi/tapahtumat/2023-05-16/automaattisen-ratkaisumenettelyn-vaatimukset-ja-tiedonhallintalaki
+%http://vm.fi/documents/10623/0/Oikarinen-Tiedonhallintaltk+toimenpiteet-Automaattinen+ratkaisumenettely2023.pdf
+
+%LSEG (London Stock Exchange Group) Technology is "MillenniumIT"
+%http://lseg.com/en/capital-markets/market-infrastructure-business-development
+%http://mitesp.com
+%http://lseg.com/markets-products-and-services/technology/x2m X2M Refinitiv on data-analytics Microsoft
+%http://investopedia.com/terms/l/legal-tender.asp
+%http://wikipedia.org/wiki/Legal_tender
+%http://valtiokonttori.fi/valtionvelka
+%http://investopedia.com/insights/what-is-money
+%http://investopedia.com/terms/f/fiatmoney.asp
+%http://wikipedia.org/wiki/Money
+%http://wikipedia.org/wiki/Fiat_money
+%http://wikipedia.org/wiki/Store_of_value
+%http://wikipedia.org/wiki/Medium_of_exchange
+%http://wikipedia.org/wiki/Modern_Monetary_Theory
+%http://wikipedia.org/wiki/Quantity_theory_of_money
+%http://investopedia.com/terms/q/quantitative-easing.asp
+%http://wikipedia.org/wiki/Quantitative_easing
+%http://wikipedia.org/wiki/Everything_bubble
+%Age of easy money https://areena.yle.fi/1-65378367 ihttp://pbs.org/wgbh/frontline WGBH Educational Foundation http://pbs.org/wgbh/frontline/documentary/age-of-easy-money http://pbs.org/video/age-easy-money-preview https://en.wikipedia.org/wiki/WGBH-TV https://en.wikipedia.org/wiki/WGBH_(FM) https://en.wikipedia.org/wiki/WGBH_Educational_Foundation
+%http://wikipedia.org/wiki/The_General_Theory_of_Employment,_Interest_and_Money
+%http://ecb.europa.eu/ecb/educational/explainers/tell-me-more/html/what_is_inflation.en.html
+%http://wikipedia.org/wiki/Economic_growth
+%http://ec.europa.eu/eurostat/web/hicp
+%http://stat.fi/en/statistics/khi
+%http://wikipedia.org/wiki/Digital_currency
+%http://wikipedia.org/wiki/Central_bank_digital_currency
+%http://wikipedia.org/wiki/Digital_euro
+%http://finance.ec.europa.eu/digital-finance/digital-euro_en
+%http://finance.ec.europa.eu/publications/digital-euro-package_en
+%http://finance.ec.europa.eu/system/files/2023-06/230628-proposal-digital-euro-regulation_en.pdf
+%http://ecb.europa.eu/paym/digital_euro/html/index.en.html
+%http://bankofengland.co.uk/the-digital-pound
+%http://wikipedia.org/wiki/Digital_renminbi
+%http://wikipedia.org/wiki/Digital_rupee
+%
+%http://wikipedia.org/wiki/Open-source_hardware
+%http://curlie.org/Computers/Hardware/Open_Source
+%http://wikipedia.org/wiki/List_of_open-source_hardware_projects
+%http://wikipedia.org/wiki/List_of_open-source_hardware
+%http://opencompute.org/projects
+%http://openhwgroup.org
+%http://opencores.org
+%http://wikipedia.org/wiki/OpenSPARC
+%http://wikipedia.org/wiki/FeiTeng_(processor)
+%http://parallel.princeton.edu/openpiton
+%http://oshwa.org
+%http://ohwr.org
+%http://oshpark.com/shared_projects
+%http://fairphone.com
+%http://libre.computer
+%http://github.com/etimou/arduino-pro-mini-kicad
+%http://github.com/bobc/Arduino_KiCad
+%http://create.arduino.cc/projecthub/hulkco/kicad-footprint-for-new-nano-family-01b5d1
+%http://hackster.io/tech-explorations/examples-of-kicad-projects-62b574
+%http://github.com/Alarm-Siren/arduino-kicad-library
+%http://pcbways.blogspot.com/1970/01/arduino-uno-kicad-schematic.html
+%http://github.com/lachlanA/eagle-to-kicad
+%http://olimex.com/Products
+%http://github.com/OLIMEX/OLINUXINO
+%http://github.com/OLIMEX/DIY-LAPTOP
+%http://github.com/AntonioMR/ATMEGA328-Motor-Board
+%http://github.com/ciaa
+% http://github.com/ciaa/Hardware/tree/master/PCB/EDU-NXP
+% http://github.com/ciaa/Hardware/tree/master/PCB/EDU-NXP
+% http://github.com/ciaa/Hardware/tree/master/PCB/FSL
+% http://github.com/ciaa/Hardware/tree/master/PCB/NXP
+% http://github.com/ciaa/Hardware/tree/master/PCB/NXP
+%http://github.com/komar007/gh60
+%http://github.com/mossmann/hackrf
+%http://github.com/pms67/HadesFCS
+%http://github.com/jemtech/ILDA
+%http://github.com/pluggee
+%http://source.puri.sm/Librem5/dvk-mx8m-bsb
+%http://github.com/jim17/memtype
+%http://source.mntmn.com/MNT/reform
+%http://github.com/timvideos/HDMI2USB-numato-opsis-hardware
+%http://github.com/rusefi
+%http://gitlab.com/scopefun
+%http://github.com/rocketscream/TinyReflowController
+%http://github.com/dm2lct/tlnixie
+%http://github.com/f-secure-foundry/usbarmory
+%http://github.com/venseytech/VB-IoT1
+%http://github.com/paltatech/VESC-controller
+%http://github.com/vedderb
+%http://greatscottgadgets.com
+%http://github.com/greatscottgadgets/ubertooth
+%http://shop.hak5.org
+%http://github.com/sparkfun
+%http://arduino.cc
+%http://rasberrypi.org
+%http://clockworkpi.com
+%http://banana-pi.org
+%
+%
+%https://efrag.org
+@www{EU_Sustainable_finance,
+ title={Sustainable finance},
+ abstract={The EU is examining how to make sustainability considerations an integral part of its financial policy in order to support the European green deal},
+ url={http://finance.ec.europa.eu/sustainable-finance_en}
+}
+
+%https://finance.ec.europa.eu/sustainable-finance_en
+%https://commission.europa.eu/strategy-and-policy/priorities-2019-2024/european-green-deal_en
+%https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_en
+%https://finance.ec.europa.eu/publications/reports-development-eu-sustainability-reporting-standards_en
+%https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32014L0095
+%http://data.europa.eu/eli/dir/2014/95/oj
+%https://digital-finance-platform.ec.europa.eu
+%https://digital-finance-platform.ec.europa.eu/observatory/eu-fintech-map
+
+%EUROPEAN ELECTRONIC TOLL SERVICE (EETS)
+%https://joinup.ec.europa.eu/collection/rolling-plan-ict-standardisation/about
+%https://joinup.ec.europa.eu/collection/rolling-plan-ict-standardisation/european-electronic-toll-service-eets
+%https://joinup.ec.europa.eu/collection/rolling-plan-ict-standardisation/rolling-plan-2023
+
+%http://consilium.europa.eu/en/documents-publications/archives
+%http://europeanpaymentscouncil.eu
+%http://archivesportaleurope.net
+%http://digitaalinenkauppa.fi
+%http://europeana.eu
+%http://archive.org
+
+@www{DigitaalinenKauppa,
+ author = {Finnish Commerce Federation},
+ publisher = {Finnish Commerce Federation},
+ year = {2021},
+ url = {https://digitaalinenkauppa.fi/en/digital-commerce},
+ note = {In cooperation with local univeresities}
+}
+
+@www{CopyrightLenghts,
+ author = {Wikipedia contributors},
+ title = {List of countries copyright lengths},
+ year = {2023},
+ url = {http://wikipedia.org/wiki/Special:PermanentLink/1161011775}
+}
+%http://wikipedia.org/wiki/Special:PermanentLink/1161011775
+%url = {http://wikipedia.org/wiki/List_of_countries'_copyright_lengths}
+%url = "https://en.wikipedia.org/w/index.php?title=List_of_countries%27_copyright_lengths&oldid=1146324383"
+%howpublished = "\url{http://wikipedia.org/wiki/List_of_countries%27_copyright_lengths}"
+%\href{http://wikipedia.org/wiki/List_of_countries%27_copyright_lengths}{links label}
+
+@standard{ISO_IEC_19790,
+ series = {International standard},
+ title = {ISO/IEC19790(en) Cryptographic module},
+ institution = {International Standard Organization (ISO)},
+ organization = {International Electrotechnical Commission (IEC)},
+ author = {Joint Technical Committee (JTC) 1 / SubCommittee (SC) 27 Information security - cybersecurity and privacy protection},
+ publisher = {ISO copyright office},
+ year = {2012},
+ url = {http://iso.org/standard/52906.html}
+}
+%http://iso.org/committee/45306.html
+%http://wikipedia.org/wiki/ISO/IEC_JTC_1/SC_27
+
+%DIGITALEUROPE is an international non-profit association whose membership includes 41 national trade associations from across Europe as well as 102 corporations
+%http://digitaleurope.org/structure-governance
+%JOINUP http://joinup.ec.europa.eu/collection/joinup/about
+%http://git.fpfis.eu/ec-europa/digit-joinup-reference
+
+%http://digital-strategy.ec.europa.eu/en/library/publication-regulation-electronic-identification-and-trust-services-electronic-transactions
+%http://researchgate.net/publication/321410094_Smart_cross-border_e-Gov_systems_An_application_to_refugee_mobility
+%http://semanticscholar.org/paper/STORK-e-privacy-and-security-Koulolias-Kountzeris/575b9067db3e8bed304b249887331dff48707ea9
+%http://ec.europa.eu/digital-building-blocks/wikis/display/EIDCOMMUNITY/Large+Scale+Pilots
+%http://www.atlantis-group.gr/projects/stork2
+%http://www.esens.eu/articles
+%http://github.com/STORK2
+%http://github.com/e-gov
+
+%Understanding Cybersecurity in the European Union (Cyber Risk GmbH)
+%http://european-cyber-resilience-act.com
+
+%eID, OOTS, eSignature, eDelivery, eInvoixing
+%http://ec.europa.eu/digital-building-blocks/wikis/display/DIGITAL/Digital+Homepage
+%http://ec.europa.eu/digital-building-blocks/wikis/spacedirectory/view.action
+
+%http://eid.belgium.be/en/linux-eid-software-installation
+
+%https://installer.id.ee
+%https://installer.id.ee/media
+%https://id.ee/en/article/install-id-software
+%https://installer.id.ee/media/ubuntu/dists/jammy/main/binary-amd64/Packages
+
+%https://eid.belgium.be/en
+%https://eid.belgium.be/en/linux-eid-software-installation
+%https://wiki.debian.org/BeID
+%https://packages.debian.org/opensc
+%https://packages.debian.org/pcscd
+%https://packages.debian.org/pcsc-tools
+%https://packages.ubuntu.com/opensc
+%https://packages.ubuntu.com/pcscd
+%https://packages.ubuntu.com/pcsc-tools
+%https://packages.fedoraproject.org/pkgs/opensc/opensc
+%https://packages.fedoraproject.org/pkgs/pcsc-lite/pcsc-lite
+%https://packages.fedoraproject.org/pkgs/pcsc-tools/pcsc-tools
+%https://dvv.fi/en/linux-versions
+%https://dvv.fi/en/identification
+%https://wikipedia.org/wiki/EIDAS
+
+@www{eIDASnode,
+ title = {The status of eIDAS-Node implementation and eID use across Europe},
+ publisher = {European Comission},
+ url={http://ec.europa.eu/digital-building-blocks/wikis/display/DIGITAL/Country+overview}
+}
+
+%https://ec.europa.eu/digital-building-blocks/wikis/display/DIGITAL/eIDAS+eID+Profile
+%https://ec.europa.eu/digital-building-blocks/wikis/display/DIGITAL/All+releases
+%https://ec.europa.eu/digital-building-blocks/wikis/display/DIGITAL/eIDAS-Node+version+2.6
+%https://ec.europa.eu/digital-building-blocks/wikis/display/DIGITAL/eID+Knowledge+Base
+%https://ec.europa.eu/digital-building-blocks/wikis/display/DIGITAL/eID+Service+Desk
+%https://ec.europa.eu/digital-building-blocks/wikis/display/DIGITAL/eID+Community+management
+
+%https://ec.europa.eu/digital-building-blocks/wikis/display/DIGITAL/eDelivery+AS4+-+1.15
+%https://ec.europa.eu/digital-building-blocks/wikis/display/DIGITAL/Domibus+releases
+%https://ec.europa.eu/digital-building-blocks/wikis/display/DIGITAL/SMP+releases
+%https://ec.europa.eu/digital-building-blocks/wikis/display/DIGITAL/eDelivery+SMP
+%https://ec.europa.eu/digital-building-blocks/wikis/display/DIGITAL/eDelivery+BDXL
+%https://ec.europa.eu/digital-building-blocks/wikis/display/DIGITAL/eDelivery+ebCore+Party+ID
+%https://ec.europa.eu/digital-building-blocks/wikis/display/DIGITAL/SML+releases
+%https://ec.europa.eu/digital-building-blocks/wikis/display/DIGITAL/SML
+%https://ec.europa.eu/digital-building-blocks/wikis/display/DIGITAL/Terms+and+Conditions+for+eDelivery+PKI+Service
+
+%https://ec.europa.eu/digital-building-blocks/wikis/display/DIGITAL/Standards+and+specifications
+%https://ec.europa.eu/digital-building-blocks/wikis/display/DIGITAL/Digital+Signature+Service+-++DSS
+
+%https://ec.europa.eu/digital-building-blocks/wikis/display/DIGITAL/Obtaining+a+copy+of+the+European+standard+on+eInvoicing
+%https://ec.europa.eu/digital-building-blocks/wikis/display/DIGITAL/Documentation+eInvoicing
+
+%https://api-pilot.ebsi.eu/docs
+
+%https://ec.europa.eu/digital-building-blocks/wikis/display/OOTS/Catalogue+of+reusable+services
+%https://ec.europa.eu/digital-building-blocks/wikis/display/OOTS/Architecture
+%https://oots.pages.code-europa-eu.gitlab.host/tdd/apidoc/
+
+% https://commission.europa.eu/strategy-and-policy/priorities-2019-2024/europe-fit-digital-age/european-digital-identity_en
+
+@legal{EU_eIDAS,
+ title = {Electronic IDentification And trust Services (eIDAS) for electronic transactions in the internal market},
+ publisher = {European Comission},
+ url = {http://data.europa.eu/eli/reg/2014/910/oj},
+ note = {http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014R0910}
+}
+
+@legal{EU_CRA,
+ series = {},
+ title = {Cyber Resilience Act (CRA)},
+ author = {European Cybersecurity Competence Centre (ECCC)},
+ publisher = {European Comission},
+ year = {2022},
+ url = {
+http://digital-strategy.ec.europa.eu/en/policies/cybersecurity-strategy
+http://digital-strategy.ec.europa.eu/en/library/cyber-resilience-act-factsheet
+http://digital-strategy.ec.europa.eu/en/library/cyber-resilience-act
+http://ec.europa.eu/newsroom/dae/redirection/document/89528
+http://eucyberact.org
+http://cryptomod.org
+http://iotac.eu }
+}
+% EDRi, NCUC, NPOC,... 
+% https://fsfe.org/news/2023/news-20230719-01.en.html
+% https://digital-strategy.ec.europa.eu/en/library/european-digital-identity-wallet-architecture-and-reference-framework
+
+@report{TEM_2022_33,
+ series = {Publications of the Ministry of Economic Affairs and Employment},
+ title = {Impacts of EU Legislation Concerning Digitalisation on Business Activities},
+ author = {Heli Paavola},
+ publisher = {Ministry of Economic Affairs and Employment of Finland},
+ year = {2022},
+ isbn = {978-952-327-744-1},
+ url = {http://urn.fi/URN:ISBN:978-952-327-744-1}
+}
+
+@www{DPA,
+ title={Towards a smoothly functioning Finland},
+ author={Digital and Population Data Services Agency (DVV)},
+ url={http://dvv.fi/en}
+}
+
+@www{BASE,
+ title={MyBase},
+ author={Social Insurance Institution of Finland},
+ url={http://kanta.fi/en/citizens}
+}
+%http://ilmoitin.fi/webtamo/sivut/Esittelysivu
+%http://vero.fi/tulorekisteri/ohjelmistokehitt%C3%A4j%C3%A4t/dokumentaatio
+%http://vero.fi/tietoa-verohallinnosta/kehittaja/tietuekuvaukse
+%http://vero.fi/tietoa-verohallinnosta/kehittaja/veron-rajapintapalvelut
+%http://yhteistyotilat.fi/wiki08/category/tyotilat
+%http://yhteistyotilat.fi/wiki08/spacedirectory/view.action
+
+%http://dvv.fi/arkkitehtuuri
+@booklet{VN_2017/16,
+ series = {Prime Minister's Office Publications},
+ title = {Business architecture of the Government enterprise architecture},
+ publisher = {Prime Minister's Office},
+ isbn = {978-952-287-498-6},
+ url = {http://urn.fi/URN:ISBN:978-952-287-498-6}
+}
+
+%Business architecture of the Government enterprise architecture
+%http://suomidigi.fi/ohjeet-ja-tuki/jhs-suositukset/jhs-179-kokonaisarkkitehtuurin-suunnittelu-ja-kehittaminen
+%http://suomidigi.fi/sites/default/files/2020-07/JHS179.doc
+%http://suomidigi.fi/sites/default/files/2020-07/JHS179_liite1.doc
+%http://suomidigi.fi/sites/default/files/2020-07/JHS179_liite2.doc
+%http://suomidigi.fi/sites/default/files/2020-07/JHS179_liite3.doc
+%http://suomidigi.fi/sites/default/files/2020-07/JHS179_liite4.xls
+%http://suomidigi.fi/sites/default/files/2020-07/JHS179_liite6.pdf
+%http://suomidigi.fi/sites/default/files/2020-07/JHS179_liite7.doc
+%http://suomidigi.fi/sites/default/files/2020-07/JHS179_liite8.doc
+%http://suomidigi.fi/sites/default/files/2020-07/JHS179_liite9.doc
+
+%http://kuntaliitto.fi/kehittaminen-ja-digitalisaatio/digiosaaminen/kuntasektorin-kokonaisarkkitehtuuri
+%http://hosiaisluoma.fi/blog/process-modelling-with-archimate
+
+@www{FSFE_PublicCode,
+ publisher = {Free Software Foundation Europe (FSFE)},
+ url = {http://publiccode.eu}
+}
+
+%http://finanssivalvonta.fi
+%http://asiakastieto.fi
+
+@www{NationalEnforcementAuthorityFinland,
+ title = {Entry Page},
+ author = {National Enforcement Authority Finland},
+ publisher = {National Enforcement Authority Finland},
+ url = {http://ulosottolaitos.fi/en}
+}
+
+@article{GEELS201124,
+ title = {The multi-level perspective on sustainability transitions: Responses to seven criticisms},
+ journal = {Environmental Innovation and Societal Transitions},
+ volume = {1},
+ number = {1},
+ pages = {24-40},
+ year = {2011},
+ issn = {2210-4224},
+ doi = {http://doi.org/10.1016/j.eist.2011.02.002},
+ url = {http://sciencedirect.com/science/article/pii/S2210422411000050},
+ author = {Frank W. Geels},
+ keywords = {Transitions, Sustainable development, Multi-level perspective, Response to critics},
+ abstract = {The multi-level perspective (MLP) has emerged as a fruitful middle-range framework for analysing socio-technical transitions to sustainability. The MLP also received constructive criticisms. This paper summarises seven criticisms, formulates responses to them, and translates these into suggestions for future research. The criticisms relate to: (1) lack of agency, (2) operationalization of regimes, (3) bias towards bottom-up change models, (4) epistemology and explanatory style, (5) methodology, (6) socio-technical landscape as residual category, and (7) flat ontologies versus hierarchical levels.}
+}
+
+@book{Karjaluoto2022,
+ title = {Digimarkkinointi},
+ author = {Heikki Karjaluoto - Niko Lahtinen - Joel Mero - Kimmo Pulkka},
+ year = {2022},
+ pages = {287},
+ isbn = {9789521446085},
+ publisher = {Alma Talent},
+ type = {EPUB, Vesileimattu},
+ url = { http://kirja.elisa.fi/ekirja/digimarkkinointi/esikatselu ,
+ http://digimarkkinointi.fi/wp-content/uploads/2022/01/Digimarkkinointi-kirja-4-2048x1367.jpg },
+ note = {Sivu 10-11, Kuva 1. Kirjan rakenne. Osa 1. Digitaalisen markkinoinnin strateginen analyysi ja suunnittelu (MVG -malli),
+ Osa 2. Digitaalisen markkinoinnin operatiivinen toteutus (mRACE -malli).},
+ abstract = {
+Luo strategia, vie se k\"ayt\"ant\"o\"on, myy enemm\"an
+Digitaalinen markkinointi on t\"arke\"a osa liiketoimintaa: sen onnistuminen m\"a\"aritt\"a\"a myynnin onnistumisen, joka puolestaan m\"a\"aritt\"a\"a organisaation kasvutahdin. Koronaviruspandemia on lis\"aksi pakottanut organisaatiot digitalisoitumaan nopeasti, mik\"a on lis\"annyt digitaalisen markkinoinnin tarvetta entisest\"a\"an. Silti aiheesta ei ole ajantasaista teosta suomeksi.
+Kirja vastaa t\"ah\"an puutteeseen ja kertoo, miten erilaiset organisaatiot voivat kasvattaa myynti\"a\"an digitaalisen markkinoinnin avulla. Se opastaa, kuinka digitaaliselle markkinoinnille luodaan strategia, kuinka strategia vied\"a\"an k\"ayt\"ant\"o\"on ja kuinka markkinoinnin onnistumista ja myynnin kasvua mitataan.
+Teoksessa yhdistyy Suomen parhaaksi valitun digimarkkinointitoimiston sek\"a alan johtavien tutkijoiden ja opettajien osaaminen.}
+}
+
+@www{SDM2022,
+ title = {mRACE-model},
+ author = {Suomen Digimarkkinointi Oy},
+ year = {2022},
+ url = {http://digimarkkinointi.fi/mrace-malli},
+ note = {Presents mRACE and MVG-models}
+}
+
+@www{ChaffreyRACE,
+ title = {RACE Planning Framework},
+ author = {David Chaffrey},
+ year = {2022},
+ url = {http://smartinsights.com/tag/race-planning-system}
+}
+
+@www{ChaffreySSSSS,
+ title = {5S's goals of digital marketing},
+ author = {David Chaffrey},
+ year = {2020},
+ url = { http://davechaffey.com/digital-marketing-glossary/5s-goals-of-digital-marketing ,
+ http://smartinsights.com/goal-setting-evaluation/goals-kpis/goals-for-your-digital-marketing }
+}
+
+@book{doi/10.2759/430161,
+ author = {European Commission and Directorate-General for Communications Networks, Content and Technology and Blind K. - B\"ohm M. - Grzegorzewska P. - Katz A. - Muto S. - P\"atsch S. - Schubert, T.},
+ title = {The impact of open source software and hardware on technological independence, competitiveness and innovation in the EU economy : final study report},
+ edition = {1st edition},
+ publisher = {Publications Office, Brussels, Luxemburg},
+ year = {2021},
+ isbn = {978-92-76-30980-2},
+ number = {KK-04-21-080-EN-N},
+ doi = {http://doi.org/10.2759/430161},
+ url = {http://data.europa.eu/doi/10.2759/430161 , http://digital-strategy.ec.europa.eu/en/library/study-about-impact-open-source-software-and-hardware-technological-independence-competitiveness-and}
+}
+
+@conference{RenkenNRWC2022,
+ author = {Sebastian Renken - Patrick Weber - Maximilian Werling},
+ title = {Data Collaboration in Wholesale: a Case Study in Cooling Lubricant},
+ year = {2022},
+ organization = {Ferdinand-Steinbeis-Institut},
+ school = {Ferdinand-Steinbeis-Institut, Stuttgart},
+ publisher = {Ferdinand-Steinbeis-Institut, Stuttgart},
+ institution = {Ferdinand-Steinbeis-Institut, Stuttgart},
+ url = {http://nrwa.se/wp-content/uploads/2022/10/NRWC-2022-Conference-Programme-final.pdf},
+ annote = {Figure 1: Value scenarios in Wholesale}
+}
+
+@conference{NNlostAtNRWC2022,
+ author = {Ms/Mrs Lastname Firstname},
+ title = {Jane Doe},
+ year = {2022},
+ organization = { },
+ school = { },
+ publisher = { },
+ institution = { },
+ url = {http://nrwa.se/wp-content/uploads/2022/10/NRWC-2022-Conference-Programme-final.pdf},
+ annote = {Didn't write down presenter name, and offered abstracts do not give enough information to recall correct presentation right.}
+}
+
+%Learning circle https://search.issuelab.org/resources/121/121.pdf
+%http://wikipedia.org/wiki/Service_integration_and_management
+%https://www.cgi.com/fi/fi/whats-next-podcast
+%https://www.edpia.eu
+%https://www.linkedin.com/company/the-european-payments-industry-alliance
+%https://tyo-2-0-lab.fi/tapahtuma/tervetuloa-rakentamaan-ihmiskeskeista-julkishallintoa
+%http://www.managecomplexity.dk/blog/2020/05/12/strategizing-over-strategy/
+%https://www.eoppiva.fi/?s=ihmiskeskeinen
+%https://ihmiskeskeisyys.fi
+%https://www.iso.org/obp/ui/#iso:std:iso:9241:-210:ed-2:v1:en
+
+@series{VN_2022/72,
+author={Finnish Government},
+title={Government report: Digital Compass},
+series={Publications of the Finnish Government},
+year={2022-12-02},
+%abstract={For the purpose of directing and managing the development of the digital transformation in Finland, a Digital Compass was drawn up. The work was steered by the ministerial working group on developing the digital transformation, the data economy and public administration and prepared by the coordination group for digitalisation. As a background to the Digital Compass, the report describes Finland's challenges and opportunities for the development and utilisation of digitalisation and the data economy. The Digital Compass is based on European values and the Digital Decade 2030 programme. It steers the development work and strengthens the shared understanding of the benefits, concepts and direction of digitalisation and the data economy. It also sets out priorities for Finland's advocacy work in the European Union. The Digital Compass shows the way as we create a common roadmap for the development of digitalisation and the data economy. According to the vision, we are building a digitally capable Finland that is attractive, competitive, sustainable and prosperous. We will achieve this through competitive and innovative business activities, high-quality expertise, broad-based education, people-oriented public services and safe and high-quality infrastructure. Achieving the objectives set for the Digital Compass calls for extensive systemic change; determined cooperation with the public and private sectors, universities, research institutes and organisations. To accelerate digitalisation and the data economy, we need investments and cross-sectoral practices.},
+publisher={Valtioneuvosto},	
+%issn={2490-0966},
+isbn={978-952-383-609-9},
+%urn={URN:ISBN:978-952-383-609-9},
+url={http://julkaisut.valtioneuvosto.fi/handle/10024/164472}
+}
+
+https://julkisenhallinnonstrategia.fi
+https://julkisenhallinnonstrategia.fi/userassets/uploads/2021/01/Valtiovarainministerio_Julkisen_hallinnon_strategia_2020.pdf
+https://julkisenhallinnonstrategia.fi/strategian-taustaa/
+https://www.stat.fi/tup/satavuotias-suomi/suomi-maailman-karjessa.html
+https://valtioneuvosto.fi/documents/10623/12045794/DESI2019LANGFinland.pdf/8c034df4-5dc4-0d8e-5a38-4281d94af182/DESI2019LANGFinland.pdf.pdf
+http://otakantaa.fi
+
+https://www.kuntaliitto.fi/julkaisut/2022/2186-kuntien-systeeminen-muutos-ja-suhde-asiakaskeskeisyyteen
+https://www.kuntaliitto.fi/kehityskompassi
+https://www.kuntaliitto.fi/kehittaminen-ja-digitalisaatio/kuntien-digikehittaminen/kuntien-digikehitystoimiston-digisumpit
+
+
+@book{kartajaya2021marketing,
+ title={Marketing 5.0: Technology for Humanity},
+ author={Kartajaya, H. and Setiawan, I. and Kotler, P.},
+ isbn={9781119668541},
+ %lccn={2020046416},
+ url={https://books.google.fi/books?id=lgAXEAAAQBAJ},
+ year={2021},
+ publisher={Wiley}
+}
+
+@book{kartajaya2016marketing,
+ title={Marketing 4.0: Moving from Traditional to Digital},
+ author={Kartajaya, H. and Kotler, P. and Setiawan, I.},
+ isbn={9781119341062},
+ %lccn={2016036899},
+ url={https://books.google.fi/books?id=MZyHDQAAQBAJ},
+ year={2016},
+ publisher={Wiley}
+}
+
+@book{kotler2010marketing,
+ title={Marketing 3.0: From Products to Customers to the Human Spirit},
+ author={Kotler, P. and Kartajaya, H. and Setiawan, I.},
+ isbn={9780470609798},
+ %lccn={2010481994},
+ url={https://books.google.fi/books?id=8pk60fGn50oC},
+ year={2010},
+ publisher={Wiley}
+}
+
+%http://wikipedia.org/wiki/Economic_sector
+%http://wikipedia.org/wiki/Industry_classification
+%http://msci.com/our-solutions/indexes/gics
+%http://wikipedia.org/wiki/Global_Industry_Classification_Standard
+%http://wikipedia.org/wiki/International_Standard_Industrial_Classification
+%http://wikipedia.org/wiki/Standard_Industrial_Classification
+%http://stat.fi/en/luokitukset/toimiala
+
+%https://www.ruokavirasto.fi/en/about-us/guides/oiva-hehe/heh-06e/06-food-temperature-management/
+%https://www.finlex.fi/fi/laki/alkup/1994/19940165
+
+@book{GallowayScottTheFour2017,
+ author = {Galloway Scott},
+ title = {The four : the hidden DNA of Amazon, Apple, Facebook and Google},
+ year = {2017},
+ pages = {336},
+ publisher = {Random House 2017, Bantam Press, London 2017, Portfolio/Penguin, New York 2017,2018, Corgi Books, London 2018},
+ isbn = {9781473542105},
+ url = {http://books.google.fi/books?id=_eTACwAAQBAJ}
+}
+
+@www{MetaFaceShops,
+title={Shops on Facebook and Instagram. Sell from anywhere in your customisable online shop.},
+author={Meta},
+publisher={Meta},
+note={http://meta.com},
+url = {http://facebook.com/business/shops}
+}
+%http://meta.com/?utm_content=31202
+%http://facebook.com/business/help/623552069600842
+
+%https://wikipedia.org/wiki/Vili_Lehdonvirta
+%https://education.ec.europa.eu/education-levels/higher-education/micro-credentials
+%Do Microcredentials Help New Workers Enter the Market? Evidence from an Online Labor Platform
+%DOI: https://doi.org/10.3368/jhr.0519-10226R3
+%https://mitpress.mit.edu/9780262047227
+%https://ilabour.oii.ox.ac.uk
+
+%https://pubs.opengroup.org/architecture/togaf9-doc/arch/
+
+@book{ojanpera2021platform,
+ title={Platform Strategy: Transform Your Business with AI, Platforms and Human Intelligence},
+ author={Ojanper{\"a}, T. and Vuori, T.O.},
+ isbn={9781398602670},
+ %lccn={2021028661},
+ url={http://books.google.fi/books?id=UEJFEAAAQBAJ},
+ year={2021},
+ publisher={Kogan Page}
+}
+% Page 26: To trancend industry boundaries, your firm neds to have three curical elements in place and think of your strategy as sequence of steps over time. The three factors are:
+% 1) network effect via platform approach,
+% 2) AI-enabled learning loop and
+% 3) the active use of human intelligence, insight and creativity.
+%Page 30: Figure 0.1 details
+% For each business sector: Platform business model - Human intelligence - AI-powered learning loop
+% 1. Turn fear into energy - Find the gap preventing customer seen value to overcome customer seen cost - Find the way existing organization can accept the change.
+% 1.1. Create psycological safety and collective mindfullness - Involve memebers of the organization in the option creation and evaluation
+% 1.2. Create and evaluate options - Emphasize continuity in communication
+% 1.3. Identify the smallest action with the highest impact for each option - Support and enable learning
+% 1.4. Aproach potentiel partners early on - Use internal analytics to optimize your timing
+% 2. Remove frinction - Fix/fill the gap by yourselves or by partner - turn partner's fear into energy:
+% 2.1. Initiate relationship building as early as possible
+% 2.2. Communicate clear vision with memebers already on board
+% 2.3. Generate positive emotional experiences
+% 2.4. Maintain momentum throught frequent joint actions, even if small
+% 3. Focus your actions to create fans - Let peopes to be part of extending/gap filling -
+%
+% 4. Create learning loop - Let identified participants to rate everything, including participants credibility
+% 5. Open up with an algorihmic handschake - Add economic sector at time to frame and implement business models, model needed extensions to 
+% 6. Create the unexpected - Extend existing assets with new economy sector assets made compatible to utilize with the others under frame agreement.
+% 7. Organize around AI - Teach AI to support new economy sector besides the others, and let it learn from particilants actions, weighting each with they trustability ratio.
+
+@booklet{VM_40_2023,
+ series = {Publications of the Ministry of Finance},
+ author = {Aleksi Kopponen},
+ editor = {Niko Ruostetsaari - R\"asanen Tommi},
+ publisher = {Ministry of Finance},
+ title = {Ihmiskeskeinen ja el\"am\"antapahtumal\"aht\"oinen julkinen hallinto : N\"ak\"okulmia kansallisesta teko\"alyohjelmasta (AuroraAI)},
+ year = {2023},
+ isbn = {978-952-367-282-6},
+ %issn = {1797-9714},
+ %urn = {http://urn.fi/URN:ISBN:978-952-367-282-6},
+ url = {https://julkaisut.valtioneuvosto.fi/handle/10024/164923}
+}
+
+%http://maemo.org
+%http://wiki.maemo.org/Remote_desktop
+%http://devuan.org
+%http://debian.org
+%http://sailfishos.org
+%http://wikipedia.org/wiki/Mer_(software_distribution)
+%http://wikipedia.org/wiki/MeeGo
+%http://wikipedia.org/wiki/Nokia_N900
+%http://wikipedia.org/wiki/Nokia_N950 See: http://fxtec.com/smartphones/pro1x , http://wikipedia.org/wiki/Psion_(company)
+%http://wikipedia.org/wiki/Tizen
+%http://wikipedia.org/wiki/Nokia
+%http://wikipedia.org/wiki/Symbian
+%http://wikipedia.org/wiki/Maemo
+%http://wikipedia.org/wiki/MeeGo
+%http://wikipedia.org/wiki/Sailfish_OS
+%http://wikipedia.org/wiki/Ovi_(Nokia)
+%http://wikipedia.org/wiki/Why_Nations_Fail
+%http://wikipedia.org/wiki/Freedom_of_speech
+%http://wikipedia.org/wiki/List_of_Nokia_products
+%http://fi.wikipedia.org/wiki/Nokia_(yritys)#Maailman_suurin_matkapuhelinvalmistaja
+%http://hmdglobal.com
+%http://raspbian.org
+%http://pureos.net
+%http://puri.sm
+%http://pine64eu.com
+%http://fairphone.com
+%http://jolla.com
+%http://volla.online
+%http://ubports.com
+%http://fxtec.com
+%http://wikipedia.org/wiki/List_of_open-source_mobile_phones
+%http://steamdeck.com http://store.steampowered.com/steamos
+
+@www{LTEonMoon,
+ title = {LTE on the Moon matters for networks on Earth},
+ author = {Thierry Klein - Trent Martin},
+ publisher = {Nokia},
+ year = {2023},
+ url = {http://nokia.com/thought-leadership/articles/network-on-the-moon}
+}
+%http://youtu.be/Mql5Qx9e9qk
+
+%http://wikipedia.org/wiki/Block_(data_storage)
+%http://wikipedia.org/wiki/List_of_archive_formats
+%http://wikipedia.org/wiki/Comparison_of_file_systems
+%http://wikipedia.org/wiki/Comparison_of_file_archivers
+%http://wikipedia.org/wiki/Comparison_of_online_backup_services
+%http://wikipedia.org/wiki/Comparison_of_file_hosting_services
+%http://wikipedia.org/wiki/Key%E2%80%93value_database
+%http://wikipedia.org/wiki/Distributed_data_store
+%http://g2.com/categories/key-value-databases
+%http://wikipedia.org/wiki/Object_storage
+%http://wikipedia.org/wiki/Blockchain
+
+%http://rfc-editor.org/info/bcp14
+%http://ietf.org/rfc/bcp/bcp14.txt
+%http://rfc-editor.org/refs/ref-bcp14.txt
+@standard{bcp14,
+ series = {Best Current Practices},
+ number = {14},
+ howpublished = {BCP 14},
+ title = {Key words for use in RFCs to Indicate Requirement Levels. Ambiguity of Uppercase vs Lowercase in Key Words},
+ author = {Scott O. Bradner - Barry Leiba},
+ year = {2017},
+ month = {may},
+ publisher = {Internet Engineering Task Force (IETF)},
+ url = {http://rfc-editor.org/info/bcp14}
+}
+%publisher = {RFC Editor},
+
+%http://datatracker.ietf.org/doc/rfc2119/bibtex
+%http://ietf.org/rfc/rfc2119.txt
+@standard{rfc2119,
+ series = {Request for Comments},
+ number = {2119},
+ howpublished = {RFC 2119},
+ publisher = {RFC Editor},
+ doi = {10.17487/RFC2119},
+ url = {http://www.rfc-editor.org/info/rfc2119},
+ author = {Scott O. Bradner},
+ title = {Key words for use in RFCs to Indicate Requirement Levels},
+ pagetotal = {3},
+ year = {1997},
+ month = {mar},
+ abstract =  {In many standards track documents several words are used to signify the requirements in the specification. These words are often capitalized. This document defines these words as they should be interpreted in IETF documents. This document specifies an Internet Best Current Practices for the Internet Community, and requests discussion and suggestions for improvements.}
+}
+
+%http://ietf.org/rfc/rfc0879.txt
+%http://ietf.org/rfc/rfc0675.txt
+
+%https://datatracker.ietf.org/doc/rfc8174/bibtex/
+%http://ietf.org/rfc/rfc8174.txt
+@standard{rfc8174,
+ series = {Request for Comments},
+ number = {8174},
+ howpublished = {RFC 8174},
+ publisher = {RFC Editor},
+ doi = {10.17487/RFC8174},
+ url = {http://www.rfc-editor.org/info/rfc8174},
+ author = {Barry Leiba},
+ title = {Ambiguity of Uppercase vs Lowercase in RFC 2119 Key Words},
+ pagetotal = {4},
+ year = {2017},
+ month = {may},
+ abstract = {RFC 2119 specifies common key words that may be used in protocol specifications. This document aims to reduce the ambiguity by clarifying that only UPPERCASE usage of the key words have the defined special meanings.}
+}
+
+%http://datatracker.ietf.org/doc/rfc8729/bibtex
+@standard{rfc8729,
+ series = {Request for Comments},
+ number = {8729},
+ howpublished = {RFC 8729},
+ publisher = {RFC Editor},
+ doi = {10.17487/RFC8729},
+ url = {http://www.rfc-editor.org/info/rfc8729},
+ author = {Russ Housley and Leslie Daigle},
+ title = {The RFC Series and RFC Editor},
+ pagetotal = {18},
+ year = {2020},
+ month = {feb},
+ abstract =  {This document describes the framework for an RFC Series and an RFC Editor function that incorporate the principles of organized community involvement and accountability that has become necessary as the Internet technical community has grown, thereby enabling the RFC Series to continue to fulfill its mandate. This document obsoletes RFC 4844.}
+}
+
+%http://wikipedia.org/wiki/Maximum_transmission_unit
+%http://wikipedia.org/wiki/User_Datagram_Protocol
+%http://wikipedia.org/wiki/Page_(computer_memory)#Multiple_page_sizes
+%http://wikipedia.org/wiki/Load_balancing_(computing)
+%http://wikipedia.org/wiki/Virtual_IP_address
+%http://wikipedia.org/wiki/Anycast
+%http://wikipedia.org/wiki/Routing
+%http://wikipedia.org/wiki/Nslookup
+%http://wikipedia.org/wiki/Root_name_server
+%http://wikipedia.org/wiki/Domain_Name_System
+%http://wikipedia.org/wiki/List_of_DNS_record_types
+%http://wikipedia.org/wiki/Cloud_computing
+%http://wikipedia.org/wiki/Object_storage
+%Dynamic multi-cloud scaling & object level security (backups, encryption)
+
+%http://wikipedia.org/wiki/Statistics
+%http://wikipedia.org/wiki/Probability
+%http://wikipedia.org/wiki/Density_estimation
+%http://wikipedia.org/wiki/Probability_density_function
+%http://wikipedia.org/wiki/Probability_mass_function
+%http://wikipedia.org/wiki/List_of_probability_distributions
+%http://wikipedia.org/wiki/Probability_distribution_fitting
+%http://pypi.org/project/fitter http://fitter.readthedocs.io https://medium.com/the-researchers-guide/finding-the-best-distribution-that-fits-your-data-using-pythons-fitter-library-319a5a0972e9
+%http://erdogant.github.io/distfit http://pypi.org/project/distfit
+%http://cran.r-project.org/web/packages/MASS/citation.html
+
+@Book{MASS,
+ title = {Modern Applied Statistics with S},
+ author = {W. N. Venables and B. D. Ripley},
+ publisher = {Springer},
+ edition = {Fourth},
+ address = {New York},
+ year = {2002},
+ isbn = {0-387-95457-0},
+ url = {https://www.stats.ox.ac.uk/pub/MASS4/}
+}
+
+%http://cran.r-project.org/web/packages/MASS/MASS.pdf
+%http://rdocumentation.org/packages/MASS/versions/7.3-58.3/topics/fitdistr
+%http://cran.r-project.org/doc/contrib/Ricci-distributions-en.pdf
+%http://cran.r-project.org/web/packages/fitdistrplus
+%http://medium.com/the-researchers-guide/finding-the-best-distribution-that-fits-your-data-using-pythons-fitter-library-319a5a0972e9
+%http://wikipedia.org/wiki/Order_of_approximation
+%http://wikipedia.org/wiki/Propagation_of_uncertainty
+%http://wikipedia.org/wiki/Differentiation_rules
+%http://wikipedia.org/wiki/Error_analysis_(mathematics)
+%http://wikipedia.org/wiki/List_of_continuity-related_mathematical_topics
+%http://wikipedia.org/wiki/Continuous_function
+%http://wikipedia.org/wiki/Asymptotic_analysis
+%http://wikipedia.org/wiki/Big_O_notation
+%http://vero.fi/en/About-us/finnish-tax-administration
+
+@www{VM_AuroraAiNakokulmiaIhmiskeskeisyyteen,
+ author={Mette Vuola - x - Piia Niilola - Olli-Pekka Rissanen},
+ title={Miten ihmiskeskeisyys liittyy digitalisaatioon?},
+ series={National Artificial Intelligence Programme, Aurora AI},
+ publisher={National Artificial Intelligence Programme (VM)},
+ year={2021},
+ note={Start from Piia Niilola [00:22:50]},
+ url={http://nakokulmia-ihmiskeskeisyyteen.simplecast.com/episodes/miten-ihmiskeskeisyys-liittyy-digitalisaatioon/transcript}
+}
+
+@www{SevenVirtues,
+ title = {Seven virtues},
+ publisher = {Wikipedia},
+ note = {faith fortitude hope justice love prudence temperance},
+ url = {http://wikipedia.org/wiki/Seven_virtues}
+}
+
+@www{SevenSins,
+ title = {Seven deadly sins},
+ publisher = {Wikipedia},
+ note = {envy gluttony greed lust pride sloth wrath},
+ url = {http://wikipedia.org/wiki/Seven_deadly_sins}
+}
+
+@www{PerformanceDevelTop500, % http://top500.org/system/180048 http://top500.org/lists/top500
+ title = {Performance Development},
+ note = {Top 1 not bending as much as average},
+ url = {http://top500.org/statistics/perfdevel}
+}
+
+% http://wikipedia.org/wiki/Dennard_scaling#Relation_with_Moore's_law_and_computing_performance
+@www{DennartScaling,
+ title = {Dennart scaling},
+ url = {http://wikipedia.org/wiki/Dennard_scaling}
+}
+% http://wikipedia.org/wiki/Performance_per_watt
+@www{KoomeysLaw,
+ title = {Koomeys's Law},
+ url = {http://wikipedia.org/wiki/Koomey%27s_law}
+}
+%   http://hpcg-benchmark.org
+% http://wikipedia.org/wiki/Moore%27s_law
+%http://wikipedia.org/wiki/Asymptote
+%http://wikipedia.org/wiki/Series_(mathematics)
+%http://wikipedia.org/wiki/List_of_mathematical_series
+%http://wikipedia.org/wiki/Polynomial
+%http://wikipedia.org/wiki/Power_series
+%http://wikipedia.org/wiki/Taylor_series
+%http://wikipedia.org/wiki/Mercator_series
+%http://wikipedia.org/wiki/Fourier_series
+%http://wikipedia.org/wiki/Fourier_transform
+%http://wikipedia.org/wiki/Fast_Fourier_transform
+%http://wikipedia.org/wiki/Fourier_inversion_theorem
+%http://wikipedia.org/wiki/Laurent_series
+%http://wikipedia.org/wiki/Dirichlet_series
+%http://wikipedia.org/wiki/Puiseux_series
+%http://wikipedia.org/wiki/Summation
+%http://wikipedia.org/wiki/Logarithm
+%http://wikipedia.org/wiki/Dirac_comb
+%http://wikipedia.org/wiki/Gamma_function
+%http://wikipedia.org/wiki/Laplace_transform
+%http://wikipedia.org/wiki/Inverse_Laplace_transform
+%http://wikipedia.org/wiki/Lists_of_integrals
+%http://wikipedia.org/wiki/Exponential_integral
+%http://wikipedia.org/wiki/Dirac_delta_function
+%http://wikipedia.org/wiki/Incomplete_gamma_function
+%http://wikipedia.org/wiki/List_of_integrals_of_exponential_functions
+%http://wikipedia.org/wiki/Mathematics_Subject_Classification
+%http://wikipedia.org/wiki/Lists_of_mathematics_topics
+%http://wikipedia.org/wiki/Residual_sum_of_squares
+%http://wikipedia.org/wiki/Partition_of_sums_of_squares
+%http://fitter.readthedocs.io
+%http://pypi.org/project/fitter
+%http://wasyresearch.com/tutorial-python-for-fitting-gaussian-distribution-on-data
+%http://stackoverflow.com/questions/37559470/what-do-all-the-distributions-available-in-scipy-stats-look-like
+%http://medium.com/the-researchers-guide/finding-the-best-distribution-that-fits-your-data-using-pythons-fitter-library-319a5a0972e9
+%http://github.com/erdogant/distfit/blob/master/distfit/examples.py
+%http://erdogant.github.io/distfit/pages/html/Abstract.html
+%http://erdogant.github.io/distfit/pages/html/Plots.html
+%http://erdogant.github.io/distfit
+%http://wikipedia.org/wiki/Mean_squared_error
+%http://wikipedia.org/wiki/Squared_deviations_from_the_mean
+

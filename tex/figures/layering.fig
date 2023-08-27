@@ -1,0 +1,92 @@
+#FIG 3.2  Produced by xfig version 3.2.8
+# File(8.3): layering.fig
+# Digital trade market spacetime layering xfig FIGure.
+# This figure shows tradesystem internal layering. How layers are arranged,
+# layers from the resolution process does search based to customer needs.
+# This figure created by Potkonen Ari Tue Aug 23 11:11:11 EEST 2022 with the
+# xfig 3.2.8:
+# http://packages.debian.org/xfig
+# http://packages.ubuntu.com/xfig
+# This figure is licensed under CC-BY-SA licensing scheme. BR Ari Potkonen :-).
+# 
+# Any of the trademarks, service marks, collective marks, design rights, or
+# similar rights that are mentioned, used, or cited are the property of their
+# respective owners. Their use here does not imply that you may use them for
+# any purpose other than for the same or a similar informational use as
+# contemplated by the original author of document licensed under the CC-BY-SA
+# licensing scheme. Author cannot grant any rights to use any otherwise
+# protected materials. Your use of any such or similar incorporeal property is
+# at your own risk.
+Landscape
+Center
+Metric
+A4
+100
+Single
+-2
+1200 2
+2 1 0 5 0 7 0 -1 -1 0 0 0 -1 0 0 5
+	 13250 2475 9353 225 584 5288 7404 9225 13250 5850
+4 0 0 0 -1 -1 24 0 4 270 7605 194 563 TRADESYSTEM SPACETIME LAYERING\001
+4 1 0 0 -1 -1 32 0 4 375 1650 9353 1125 ASSET\001
+4 1 0 0 -1 -1 32 0 4 360 3810 9353 1800 PRODUCT DEF.\001
+4 1 0 0 -1 -1 32 0 4 360 6615 9353 2475 ONLINE ARCHIVE LAYER.\001
+4 1 0 0 -1 -1 32 0 4 375 8370 9197 3150 BLOCKCHAIN BASED ARCHIVAL\001
+4 1 0 0 -1 -1 32 0 4 375 9000 8573 3825 OVER ALL MAJOR CLOUD SERVICE\001
+4 1 0 0 -1 -1 32 0 4 375 10500 8183 4500 PROVIDERS ONLINE ARCHIVE SERVICES.\001
+4 1 0 0 -1 -1 32 0 4 375 11985 7404 5175 SCALABILITY OVER PROVIDERS CLOUD EDGE.\001
+4 1 0 0 -1 -1 32 0 4 375 10890 7794 5850 UNUSED LAYERS SLOWER AVAILABILITY.\001
+4 1 0 0 -1 -1 32 0 4 375 8490 7794 6525 SUPPORTS BAREFOOT NETWORK\001
+4 1 0 0 -1 -1 32 0 4 375 5835 7795 7201 ON RURAL AREAS FOR\001
+4 1 0 0 -1 -1 32 0 4 360 2835 7794 7875 DELIVERY.\001
+2 1 0 5 0 7 0 -1 -1 0 0 0 -1 0 0 2
+	 584 5288 194 5288
+2 1 0 5 0 7 0 -1 -1 0 0 0 -1 0 0 2
+	 584 1013 584 5288
+2 1 0 3 0 7 0 -1 -1 0 0 0 -1 0 0 2
+	 584 1688 1948 900
+2 1 0 3 0 7 0 -1 -1 0 0 0 -1 0 0 2
+	 584 2588 3507 900
+2 1 0 3 0 7 0 -1 -1 0 0 0 -1 0 0 2
+	 584 3488 5066 900
+2 1 0 3 0 7 0 -1 -1 0 0 0 -1 0 0 2
+	 13250 675 12275 113
+2 1 0 3 0 7 0 -1 -1 0 0 0 -1 0 0 2
+	 584 4388 6625 900
+2 1 0 3 0 7 0 -1 -1 0 0 0 -1 0 0 2
+	 13250 1575 10717 113
+4 0 0 0 -1 -1 14 0.5236 4 180 600 779 1350 Needs\001
+4 0 0 0 -1 -1 14 0.5236 4 225 2085 779 2250 Money and tradeables\001
+4 0 0 0 -1 -1 14 0.5236 4 240 4470 779 3150 Existing assets and instances already purchased\001
+4 0 0 0 -1 -1 14 5.7596 4 180 465 12860 225 bank\001
+4 0 0 0 -1 -1 14 0.5236 4 240 5880 779 4050 Global, regional, local, and special local like; ports, toll and tax\001
+4 0 0 0 -1 -1 14 5.7596 4 225 1455 11691 450 trade operators.\001
+4 0 0 0 -1 -1 14 0.5236 4 240 9345 779 4950 Design, standards, certifications, rawmaterials, services, existing implementations and immediately\001
+4 0 0 0 -1 -1 14 5.7596 4 180 2880 10132 450 available tradeable certificates.\001
+2 1 0 5 0 7 0 -1 -1 0 0 0 -1 0 0 2
+	 584 6188 584 9113
+4 0 0 0 -1 -1 24 1.5708 4 270 3915 389 5063 CUSTOMER VISIBLE\001
+4 0 0 0 -1 -1 24 1.5708 4 270 2385 389 9113 PROTECTED\001
+4 0 0 0 -1 -1 24 1.5708 4 270 1605 974 9113 LAYERS\001
+2 1 0 3 0 7 0 -1 -1 0 0 0 -1 0 0 2
+	 5845 9225 1169 6525
+2 1 0 3 0 7 0 -1 -1 0 0 0 -1 0 0 2
+	 4286 9225 1169 7425
+2 1 0 3 0 7 0 -1 -1 0 0 0 -1 0 0 2
+	 2727 9225 1169 8325
+4 0 0 0 -1 -1 14 5.7596 4 240 6540 1169 5400 Has to agree frame agreement to be able enter tradesystem spacetime\001
+4 0 0 0 -1 -1 14 5.7596 4 240 7410 389 5513 Frame agreement from  business modes, license texts, banks, certificates, keys\001
+4 0 0 0 -1 -1 14 5.7596 4 240 5430 1169 6300 EU digital preservation services for unencryoted originals\001
+4 0 0 0 -1 -1 14 5.7596 4 225 4590 1169 6750 platform encryption services for protected media\001
+4 0 0 0 -1 -1 14 5.7596 4 180 3240 1169 7200 Platform services for roles devices\001
+4 0 0 0 -1 -1 14 5.7596 4 240 2940 1169 7650 IPv6 bootb, sign, resolve, trade\001
+4 0 0 0 -1 -1 14 5.7596 4 240 1500 1169 8100 Platform design\001
+2 1 0 3 0 7 0 -1 -1 0 0 0 -1 0 0 2
+	 13250 6750 8963 9225
+2 1 0 3 0 7 0 -1 -1 0 0 0 -1 0 0 2
+	 13250 7650 10522 9225
+2 1 0 3 0 7 0 -1 -1 0 0 0 -1 0 0 2
+	 13250 8550 12081 9225
+4 0 0 0 -1 -1 14 0.5236 4 240 5100 8572 9226 Sourcing, subcontracting, production, logistic services\001
+4 0 0 0 -1 -1 14 0.5236 4 225 3225 10132 9225 Product bill off materials ( BOM )\001
+4 0 0 0 -1 -1 14 0.5236 4 240 1500 11691 9225 Products design\001
