@@ -1,4 +1,4 @@
-%------------------------------------------------------------------------------
+%-----------------------------------------------------------------------------
 %
 %	ecosystm.tex
 %
@@ -7,11 +7,11 @@
 %	problem events, there is huge need for fastly editable frame agreement
 %	based working ecosystem, which can overcome slowness and self-interest
 %	.
-%	Document is edited as work on process, which means that at the first is
-%	written those parts which are needed to explain how ecosystem can be
-%	set up and related roles on ecosystem. Then based of description is
-%	added frame agreement details. Later on actual legal text is formed and
-%	book can be reordered for fast adobtion on later editions.
+%	Document is edited as work on process, which means that at the first
+%	is written those parts which are needed to explain how ecosystem can
+%	be set up and related roles on ecosystem. Then based of description is
+%	added frame agreement details. Later on actual legal text is formed
+%	and book can be reordered for fast adobtion on later editions.
 %	
 %
 %	AUTHOR: Ari Potkonen /JARVENPAA/ Mon Jun 28 2022
@@ -20,21 +20,22 @@
 %			property of their respective owners. This document is
 %			licensed under CC-BY-SA licensing scheme.
 %
-%			Any of the trademarks, service marks, collective marks,
-%			design rights, or similar rights that are mentioned,
-%			used, or cited are the property of their respective
-%			owners. Their use here does not imply that you may use
-%			them for any purpose other than for the same or a
-%			similar informational use as contemplated by the
-%			original author of document licensed under the CC-BY-SA
-%			licensing scheme. Author cannot grant any rights to use
-%			any otherwise protected materials. Your use of any such
-%			or similar incorporeal property is at your own risk.
+%			Any of the trademarks, service marks, collective
+%			marks, design rights, or similar rights that are
+%			mentioned, used, or cited are the property of their
+%			respective owners. Their use here does not imply that
+%			you may use them for any purpose other than for the
+%			same or a similar informational use as contemplated by
+%			the original author of document licensed under the
+%			CC-BY-SA licensing scheme. Author cannot grant any
+%			rights to use any otherwise protected materials. Your
+%			use of any such or similar incorporeal property is at
+%			your own risk.
 %
 %	LANGUAGE:	LaTeX2e to be used with latexmk
 %
 %
-%	REFERENCE ( http://latex-project.org/help/books , http://tug.org/books ):
+%	REFERENCE (http://latex-project.org/help/books, http://tug.org/books):
 %
 %	- http://ctan.org/starter
 %	  http://ctan.org/pkg/amsmath
@@ -55,7 +56,7 @@
 %	  United States of America 1994.
 %
 %	- https://archive.org/details/B-001-002-139
-%	  https://archive.org/items/B-001-002-139/Donald_Knuth_-_The_Tex_Book.pdf
+%	https://archive.org/items/B-001-002-139/Donald_Knuth_-_The_Tex_Book.pdf
 %	  https://ctan.org/tex-archive/systems/knuth/dist/tex/texbook.tex
 %	  https://visualmatheditor.equatheque.net/doc/texbook.pdf
 %
@@ -85,17 +86,17 @@
 %	COMPILE:	make
 %			make clean
 %
-%------------------------------------------------------------------------------
-%         1         2         3         4         5         6         7
-%123456789012345678901234567890123456789012345678901234567890123456789012345678
-%-DOCUMENT PREAMBLE------------------------------------------------------------
+%-----------------------------------------------------------------------------
+%        1         2         3         4         5         6         7
+%23456789012345678901234567890123456789012345678901234567890123456789012345678
+%-DOCUMENT PREAMBLE-----------------------------------------------------------
 % /usr/share/doc/texlive-doc/latex/comprehensive/symbols-a4.pdf
 %\documentclass[a5paper,draft]{memoir}
 \documentclass[a5paper,final]{memoir}
 %\documentclass[10pt,a5paper]{book}
 %\documentclass[a5paper]{book}
 %\documentclass[a4paper]{book}
-%\documentclass[a4paper]{bookcover} % /usr/share/doc/texlive-doc/latex/bookcover/bookcover.pdf
+%\documentclass[a4paper]{bookcover} %texlive-doc/latex/bookcover/bookcover.pdf
 %\usepackage[]{geometry}
 %\usepackage[T1]{fontenc}
 %\usepackage[cp850]{inputenc} % DOS
@@ -105,6 +106,8 @@
 %\usepackage[english,finnish]{babel}
 %\usepackage[finnish]{babel}
 \usepackage[english]{babel}
+\usepackage{advdate}
+\usepackage{fontspec} % /usr/share/doc/texlive-doc/latex/fontspec/fontspec.pdf
 %\usepackage{siunitx}
 %\usepackage{eurosym}
 \usepackage[gen]{eurosym}
@@ -112,43 +115,119 @@
 %\usepackage[official]{eurosym}
 %\usepackage{icomma} % desimalcomma
 %\usepackage{amstex}
-\usepackage{amsmath}
+%\usepackage{amsmath}
 %\usepackage{amssymb}
+\usepackage{unicode-math} % texlive-doc/latex/unicode-math/unicode-math.pdf
+%\usepackage{notomath} % doc/texlive-doc/fonts/notomath/notomath-doc.pdf
+%\usepackage{newtxtext,newtxmath} % http://ctan.org/pkg/newtx
+%\usepackage{newpxtext,newpxmath} % http://ctan.org/pkg/newpx
+%\usepackage{textcomp} % http://ctan.org/pkg/textcomp
+
+%/usr/share/doc/texlive-doc/latex/fontspec/fontspec.pdf
+%/usr/share/texlive/texmf-dist/fonts/TYPE/MODE/SUPPLIER/TYPEFACE/dpiNNN/
+% http://gnu.org/software/freefont
+% http://savannah.gnu.org/projects/unifont
+% /usr/share/texlive/texmf-dist/fonts/opentype/public/gnu-freefont
+% /usr/share/texlive/texmf-dist/fonts/truetype/public/gnu-freefont
+% GNU Font exception http://gnu.org/licenses/gpl-faq.html#FontException
+% fc-list :foundry=psbk:fontformat=CFF family
+%  Junicode http://wikipedia.org/wiki/Junicode
+%	Junicode Two Beta
+% fc-list :lang=en family | grep Linux
+%  Linux Libertine http://wikipedia.org/wiki/Linux_Libertine
+%	Linux Biolinum O
+%	Linux Libertine O
+%\setmainfont{Linux Biolinum O}
+\setmainfont{Linux Libertine O}
+% fc-list :foundry=GNU :fontformat=TrueType family
+%  GNU FreeFont http://wikipedia.org/wiki/GNU_FreeFont
+%  GNU Unifont http://wikipedia.org/wiki/GNU_Unifont
+%	FreeSerif
+%	FreeSans
+%	FreeMono
+%	Unifont
+%\setmainfont{FreeSerif}
+%\setmainfont{FreeSans}
+%\setmonofont{FreeMono}
+%\setmainfont{Unifont}
+
+% SIL Open Font License https://openfontlicense.org
+% fc-list :foundry=GOOG:fontformat=CFF family | sort -u
+%  Noto http://wikipedia.org/wiki/Noto_fonts
+%	Noto Mono
+%	Noto Sans
+%	Noto Serif
+% fc-list :foundry=SIL :fontformat=CFF family
+%  Gentium http://wikipedia.org/wiki/Gentium
+%	Gentium
+%\setmainfont{Noto Sans}
+%\setmainfont{Noto Serif}
+%\setmonofont{Noto Mono}
+%\setmainfont{Gentium}
+
 \usepackage{nicefrac}
 %\usepackage{xfrac}
 \usepackage{float}
 %\usepackage{titlepic}
 \usepackage{graphicx} % /usr/share/doc/texlive-doc/latex/graphics/graphicx.pdf
+%http://wikipedia.org/wiki/Web_colors
+%http://wikipedia.org/wiki/X11_color_names
+%http://wikipedia.org/wiki/File:SVG1.1_Color_Swatch.svg
+%http://w3.org/TR/2003/REC-SVG11-20030114/types.html#ColorKeywords
 %\usepackage{svg} % /usr/share/doc/texlive-doc/latex/svg/svg.pdf
 %\usepackage{svg-extract} 
 \usepackage{epsfig} % /usr/share/doc/texlive-doc/latex/graphics/epsfig.pdf
 \usepackage{rotating} % /usr/share/doc/texlive-doc/latex/graphics/rotating.pdf
-%\usepackage{hyperref} % /usr/share/doc/texlive-doc/latex/hyperref/hyperref.pdf
+%\usepackage{hyperref} %/usr/share/doc/texlive-doc/latex/hyperref/hyperref.pdf
 \usepackage{supertabular}
 %\usepackage{verbatim}
-%\usepackage{hyphenat}
-%\hyphenation{e-com-mer-ce com-mer-ce mind-ed ex-ist-ing providers en-tre-pre-neurs}
+%\usepackage{hyphenat} %http://wikipedia.org/wiki/Syllabification
+\hyphenation{
+ anon-y-miza-tion
+ au-then-tic-i-ty
+ au-to-mar-ket-ing
+ co-de-ba-se
+ com-bi-ning
+ cryp-tog-ra-phy
+ di-gi-mar-ket-ing
+ di-gi-na-ti-ve
+ e-com-mer-ce
+ eco-sys-tem
+ in-cor-po-ra-tion
+ le-git-i-me
+ op-er-a-tions
+ open-sour-ced
+ orig-i-nal-s
+ over-con-sump-tion
+ re-pair-a-bi-li-ty
+ re-sell-a-bi-li-ty
+ so-cio-eco-no-mi-cal
+ tra-de-sys-tem
+ un-der-stand-ing
+ un-en-crypt-ed
+ vis-i-bil-i-ty
+}
 \usepackage{csquotes} % /usr/share/doc/texlive-doc/latex/csquotes/csquotes.pdf
 \usepackage{biblatex}
 %\usepackage{url} % /usr/share/doc/texlive-doc/latex/url/url.pdf
-\usepackage{xurl} % /usr/share/doc/texlive-doc/latex/xurl/xurl.pdf penalties for biblatex
-%\usepackage[hidelinks]{hyperref} % texlive-doc/latex/hyperref/hyperref-doc.pdf
+\usepackage{xurl} % doc/texlive-doc/latex/xurl/xurl.pdf penalties for biblatex
+%\usepackage[hidelinks]{hyperref} %texlive-doc/latex/hyperref/hyperref-doc.pdf
 \usepackage[bookmarks=true,hidelinks]{hyperref} % hyperref/hyperref-doc.pdf
 \usepackage{bookmark} % /usr/share/doc/texlive-doc/latex/bookmark/bookmark.pdf
 %\addbibresource{biblatex.bib}
-\bibliography{biblatex} 	% Use biblatex.bib !  /usr/share/doc/texlive-doc/latex/biblatex/biblatex.pdf
+\bibliography{biblatex} % Use biblatex.bib! ve-doc/latex/biblatex/biblatex.pdf
 %\addbibresource{biblatex.bib}
 %\usepackage[nottoc,numbib]{tocbibind}
 %\usepackage{pgffor}  % for \foreach
 \usepackage{pdfpages} %/usr/share/doc/texlive-doc/latex/pdfpages/pdfpages.pdf
 \usepackage{makeidx}
 \makeindex
-%-DOCUMENT PREAMBLE END--------------------------------------------------------
+%-DOCUMENT PREAMBLE END-------------------------------------------------------
 \begin{document}
 %\pagestyle{plain}
-%-DOCUMENT FRAME --------------------------------------------------------------
+%-DOCUMENT FRAME -------------------------------------------------------------
 % Front cover, colored cover page?
-%-TITLE PAGE-------------------------------------------------------------------
+%-TITLE PAGE------------------------------------------------------------------
 %\clearpage
 %\begin{titlepage}
 %\pagestyle{empty}
@@ -157,9 +236,9 @@
 %\centering
 %\begin{center}
 \title{\Huge\textbf{Ecosystem}
-\linebreak digital trade \linebreak study \linebreak\linebreak DRAFT \linebreak
+\linebreak digital trade\linebreak study\linebreak\linebreak DRAFT\linebreak
 \linebreak \linebreak
-\includegraphics[height=64pt,width=64pt]{figures/resoaic.eps} \linebreak
+\includegraphics[height=64pt,width=64pt]{figures/resoaic.eps}\linebreak
 \linebreak
 %\normalsize
 \small
@@ -167,6 +246,7 @@ Practical part of my Digital Commerce -studies\linebreak
 (http://digitaalinenkauppa.fi/en/digital-commerce)
 }
 \author{\Large Potkonen Ari}
+%\SetDate[28/08/2023]
 %\begin{figure}[H]
 %\includegraphics[height=32pt,width=32pt]{figures/resoaigb.eps}
 %\end{figure}
@@ -174,7 +254,7 @@ Practical part of my Digital Commerce -studies\linebreak
 \maketitle
 %\end{titlepage}
 \pagebreak
-%-PREFACE----------------------------------------------------------------------
+%-PREFACE---------------------------------------------------------------------
 %\clearpage
 \pagestyle{plain}
 \parindent 0pt
@@ -198,22 +278,23 @@ Practical part of my Digital Commerce -studies\linebreak
 \parindent 0pt
 \include{money}		% Input money.tex file here!
 \include{trade}		% Input trade.tex file here!
+\include{cooper}	% Input cooper.tex file here!
 \include{protect}	% Input protect.tex file here!
 \include{frame}		% Input frame.tex file here!
 %\pagebreak
 %\backmatter
-%-INDEX------------------------------------------------------------------------
+%-INDEX-----------------------------------------------------------------------
 %\clearpage
 \printindex
 %\pagebreak
-%-BIBLIOGRAPHY-----------------------------------------------------------------
+%-BIBLIOGRAPHY----------------------------------------------------------------
 %\bibliographystyle{plain}
 %\bibliography{biblio}
 %\include{biblio}	% Input biblio.tex file here!
 \printbibliography
 %\addcontentsline{toc}{chapter}{Bibliography}
 %\pagebreak
-%-APPENDIX---------------------------------------------------------------------
+%-APPENDIX--------------------------------------------------------------------
 \pagestyle{plain}
 %\part{Appendixes}
 
