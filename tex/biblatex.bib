@@ -17,8 +17,8 @@
 % title = {Title},
 % author = {Author},
 % year = {Year},
-% url = {http://},
-% note = {Note}}
+% note = {Note \url{}},
+% url = {http://}}
 % https://github.com/search?q=38db172d13962ea177c00c9a3b4b3169b317e94b&type=Commits
 % gh search commits --hash=8dd03144ffdc6c0d486d6b705f9c7fba871ee7c3
 % 
@@ -69,46 +69,138 @@
 % http://tex.stackexchange.com/questions/3033/forcing-linebreaks-in-url
 
 @book{Ecosystm,
- title = {{Ecosystem}},
- author = {Potkonen, Ari},
- publisher = {Potkonen Ari},
- edition = {DRAFT},
- year = {2023},
- doi = {},
- note = {\url{http://github.com/apotkonen/ecosystm}},
- url = {https://raw.githubusercontent.com/apotkonen/ecosystm/main/ecosystm.pdf}
+ title={{Ecosystem}},
+ author={Potkonen, Ari},
+ publisher={Potkonen Ari},
+ edition={DRAFT},
+ year={2023},
+%doi={},
+ note={\url{http://github.com/apotkonen/ecosystm}},
+ url={https://raw.githubusercontent.com/apotkonen/ecosystm/main/ecosystm.pdf}
 }
 
 @booklet{DayTax,
- title = {{Daily Tax}},
- author = {Potkonen, Ari},
- publisher = {Potkonen Ari},
- edition = {DRAFT},
- year = {2023},
- doi = {},
- note = {\url{http://github.com/apotkonen/dailytax}},
- url = {https://raw.githubusercontent.com/apotkonen/dailytax/main/dailytax.pdf}
+ title={{Daily Tax}},
+ author={Potkonen, Ari},
+ publisher={Potkonen Ari},
+ edition={DRAFT},
+ year={2023},
+%doi={},
+ note={\url{http://github.com/apotkonen/dailytax}},
+ url={https://raw.githubusercontent.com/apotkonen/dailytax/main/dailytax.pdf}
 }
 
-@legal{CC-BY-SA-40,
+%http://opensource.org/licenses
+%@legal{CC-BY-SA-40,
+@misc{CC-BY-SA-40,
  author={Creative Commons},
  title={Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)},
  publisher={Creative Commons Corporation},
  year={2023},
+%note={http://creativecommons.org/licenses/by-sa/4.0},
  url={http://creativecommons.org/licenses/by-sa/4.0/legalcode}
-%note={http://creativecommons.org/licenses/by-sa/4.0}
 }
 
-% https://tem.fi/en/-/report-diverse-responsible-and-competent-domestic-ownership-needed-to-strengthen-investments-growth-and-wellbeing
-@report{TEM_2022_9, %https://julkaisut.valtioneuvosto.fi/handle/10024/163829
+@book{EULegalDepositScheme,
+ author={Management Committee of the Publications Office of the European Union},
+ title={EU legal deposit scheme},
+ publisher={Publications Office of the European Union},
+ year={2022},
+ doi={doi/10.2830/80382},
+ isbn={978-92-78-42991-1},
+ note={\url{http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0049}},
+ url={http://data.europa.eu/doi/10.2830/80382}}
+%http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0049
+%http://wikipedia.org/wiki/Legal_deposit
+
+%@legal{Vapaakappaleoikeus,
+@misc{Vapaakappaleoikeus,
+ title={Vapaakappaleoikeus},
+ note={\url{http://fi.wikipedia.org/wiki/Vapaakappaleoikeus}},
+ url={http://finlex.fi/fi/laki/ajantasa/2007/20071433} %http://finlex.fi/fi/laki/ajantasa/kumotut/1980/19800420
+}
+
+%http://wikipedia.org/wiki/Outline_of_finance
+
+%https://www.europarl.europa.eu/news/en/headlines/society/20211209STO19124/eu-digital-markets-act-and-digital-services-act-explained
+%https://valtioneuvosto.fi/-/1410829/eu-n-digipalvelusaadosta-toimeenpaneva-hallituksen-esitys-lausuntokierrokselle?languageId=en_US
+
+%https://finlex.fi/fi/uutiset/432
+%Digimarkkinas\"a\"ad\"os "Digital Markets Act" (DMA) http://digital-markets-act.ec.europa.eu/index_en
+%Digipalvelus\"a\"ad\"os "Digital Services Act" (DSA) http://digital-strategy.ec.europa.eu/en/policies/digital-services-act-package
+% https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32022R2065
+
+%http://wikipedia.org/wiki/International_Payments_Framework
+%http://wikipedia.org/wiki/Payment_Services_Directive
+%http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02015L2366-20151223
+
+%http://ecsda.eu
+%http://ecsda.eu/members
+%http://ecsda.eu/members-2/list-of-members
+
+%http://ebics.org
+
+%http://swift.com
+%http://wikipedia.org/wiki/ISO_9362
+%http://wikipedia.org/wiki/SWIFT
+%http://wikipedia.org/wiki/SWIFT#Standards
+%http://wikipedia.org/wiki/SWIFT#See_also
+%http://wikipedia.org/wiki/SWIFT#Competitors
+%http://wikipedia.org/wiki/TARGET2
+%http://wikipedia.org/wiki/Real-time_gross_settlement
+%http://wikipedia.org/wiki/International_Securities_Identification_Number
+%http://wikipedia.org/wiki/Market_Identifier_Code
+
+%http://wikipedia.org/wiki/Open_banking
+%http://wikipedia.org/wiki/Account_aggregation
+
+%http://cyber-risk-gmbh.com/Cyber_Risk_Links.html % Mimic domains.
+
+@www{BookEntry,
+ author={Wikipedia contributors},
+ title={Book entry},
+ year={2022},
+%note={},
+ url={http://wikipedia.org/wiki/Book_entry}
+}
+
+%@legal{LEX_2017/384,
+@misc{LEX_2017/384,
+ title={Act on the Book-Entry System and Settlement Activities},
+ note={\url{http://finlex.fi/en/laki/kaannokset/1991/en19910827}},
+ url={http://finlex.fi/fi/laki/kaannokset/2017/en20170348.pdf}
+}
+%htts://finlex.fi/fi/laki/ajantasa/2017/20170348
+%http://finlex.fi/en/laki/kaannokset/2017/en20170348
+%http://finlex.fi/en/laki/kaannokset/2017/en20170348.pdf
+%http://finlex.fi/fi/laki/ajantasa/1991/19910827
+%http://finlex.fi/en/laki/kaannokset/1991/en19910827
+%http://finlex.fi/en/laki/kaannokset/1991/en19910827.pdf
+%http://finlex.fi/fi/laki/ajantasa/1991/19910826
+%http://finlex.fi/en/laki/kaannokset/1991/en19910826
+%http://finlex.fi/en/laki/kaannokset/1991/en19910826.pdf
+%http://wikipedia.org/wiki/Clearing_House_Electronic_Subregister_System %CHESS
+
+%@legal{EU_Settlement,
+@misc{EU_Settlement,
+ title={Settlement finality in payment and securities settlement systems},
+ author={Publications Office of the European Union},
+ url={http://data.europa.eu/eli/dir/1998/26/2019-06-27}
+}
+%http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:01998L0026-20190627
+%http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0065
+%http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:02014L0065-20230323
+
+%https://tem.fi/en/-/report-diverse-responsible-and-competent-domestic-ownership-needed-to-strengthen-investments-growth-and-wellbeing
 %https://julkaisut.valtioneuvosto.fi/bitstream/handle/10024/163829/TEM_2022_9.pdf
- series = {Publications of the Ministry of Economic Affairs and Employment},
- title = {Vision 2030 : Towards a responsible and competent ownership society},
- author = {Juha Sipil\"a - Philip Aminoff - Kari Jussi Aho - Jenny Hasu - Johanna Ik\"aheimo - Sari Lounasmeri - Jyrki M\"akynen},
- publisher = {Ministry of Economic Affairs and Employment}, % 24.3.2021 10.32
- year = {2021}, % 2022-02-11
- note = {Page 20: "It will be examined whether the equity savings account can be made part of the maternity package. State of Finland will open a 'child's equity savings account' for each new-born resident of Finland and donate EUR 300 to each account."},
- url = {http://urn.fi/URN:ISBN:978-952-327-646-8}
+@report{TEM_2022_9, %https://julkaisut.valtioneuvosto.fi/handle/10024/163829
+ series={Publications of the Ministry of Economic Affairs and Employment},
+ title={Vision 2030 : Towards a responsible and competent ownership society},
+ author={Juha Sipil\"a - Philip Aminoff - Kari Jussi Aho - Jenny Hasu - Johanna Ik\"aheimo - Sari Lounasmeri - Jyrki M\"akynen},
+ publisher={Ministry of Economic Affairs and Employment}, % 24.3.2021 10.32
+ year={2021}, % 2022-02-11
+ note={Page 20: "It will be examined whether the equity savings account can be made part of the maternity package. State of Finland will open a 'child's equity savings account' for each new-born resident of Finland and donate EUR 300 to each account."},
+ url={http://urn.fi/URN:ISBN:978-952-327-646-8}
 }
 %http://vm.fi/hanke?tunnus=VM112%3A00%2F2018
 %http://finlex.fi/fi/laki/alkup/2019/20190681
@@ -131,20 +223,20 @@
 %http://yle.fi/a/74-20042628 Nuori sijoittaja: Vauvojen osakes\"a\"ast\"otili voisi tuottaa tuhansia euroja
 %http://yle.fi/a/74-20034479 % VM: Kokoomuksen tavoite osakes\"a\"ast\"otilin yl\"arajan poistosta maksaa noin 200 miljoonaa euroa
 
-
 @www{VN_202303241233,
- title = {Kohti nopeasykkeisemp\"a\"a jatkuvaa oppimista},
- author = {Petri Lempinen},
- url = {http://valtioneuvosto.fi/-/1410845/kohti-nopeasykkeisempaa-jatkuvaa-oppimista}
+ title={Kohti nopeasykkeisemp\"a\"a jatkuvaa oppimista},
+ author={Petri Lempinen},
+ url={http://valtioneuvosto.fi/-/1410845/kohti-nopeasykkeisempaa-jatkuvaa-oppimista}
 }
 
-%note = {11.5.2007/527}
-@legal{LEX_2007/527,
- title = {Luottotietolaki},
- author = {Oikeusministeri\"o},
- publisher = {OM},
- year = {2007},
- url = {http://finlex.fi/fi/laki/ajantasa/2007/20070527}
+%note={11.5.2007/527}
+%@legal{LEX_2007/527,
+@misc{LEX_2007/527,
+ title={Luottotietolaki},
+ author={Oikeusministeri\"o},
+ publisher={OM},
+ year={2007},
+ url={http://finlex.fi/fi/laki/ajantasa/2007/20070527}
 }
 
 %http://vm.fi/tiedonhallintalautakunta
@@ -185,7 +277,7 @@
 %http://bankofengland.co.uk/the-digital-pound
 %http://wikipedia.org/wiki/Digital_renminbi
 %http://wikipedia.org/wiki/Digital_rupee
-%
+%http://openbuilds.com
 %http://wikipedia.org/wiki/Open-source_hardware
 %http://curlie.org/Computers/Hardware/Open_Source
 %http://wikipedia.org/wiki/List_of_open-source_hardware_projects
@@ -193,6 +285,8 @@
 %http://opencompute.org/projects
 %http://openhwgroup.org
 %http://opencores.org
+%http://riscv.org
+%http://gaisler.com/index.php/products/processors
 %http://wikipedia.org/wiki/OpenSPARC
 %http://wikipedia.org/wiki/FeiTeng_(processor)
 %http://parallel.princeton.edu/openpiton
@@ -274,34 +368,35 @@
 %http://archive.org
 
 @www{DigitaalinenKauppa,
- author = {Finnish Commerce Federation},
- publisher = {Finnish Commerce Federation},
- year = {2021},
- url = {https://digitaalinenkauppa.fi/en/digital-commerce},
- note = {In cooperation with local univeresities}
+ author={Finnish Commerce Federation},
+ publisher={Finnish Commerce Federation},
+ year={2021},
+ note={In cooperation with local univeresities},
+ url={https://digitaalinenkauppa.fi/en/digital-commerce}
 }
 
 @www{CopyrightLenghts,
- author = {Wikipedia contributors},
- title = {List of countries copyright lengths},
- year = {2023},
- url = {http://wikipedia.org/wiki/Special:PermanentLink/1161011775}
+ author={Wikipedia contributors},
+ title={List of countries copyright lengths},
+ year={2023},
+ url={http://wikipedia.org/wiki/Special:PermanentLink/1161011775}
 }
 %http://wikipedia.org/wiki/Special:PermanentLink/1161011775
-%url = {http://wikipedia.org/wiki/List_of_countries'_copyright_lengths}
-%url = "https://en.wikipedia.org/w/index.php?title=List_of_countries%27_copyright_lengths&oldid=1146324383"
-%howpublished = "\url{http://wikipedia.org/wiki/List_of_countries%27_copyright_lengths}"
+%url={http://wikipedia.org/wiki/List_of_countries'_copyright_lengths}
+%url="https://en.wikipedia.org/w/index.php?title=List_of_countries%27_copyright_lengths&oldid=1146324383"
+%howpublished="\url{http://wikipedia.org/wiki/List_of_countries%27_copyright_lengths}"
 %\href{http://wikipedia.org/wiki/List_of_countries%27_copyright_lengths}{links label}
 
-@standard{ISO_IEC_19790,
- series = {International standard},
- title = {ISO/IEC19790(en) Cryptographic module},
- institution = {International Standard Organization (ISO)},
- organization = {International Electrotechnical Commission (IEC)},
- author = {Joint Technical Committee (JTC) 1 / SubCommittee (SC) 27 Information security - cybersecurity and privacy protection},
- publisher = {ISO copyright office},
- year = {2012},
- url = {http://iso.org/standard/52906.html}
+%@standard{ISO_IEC_19790,
+@misc{ISO_IEC_19790,
+ series={International standard},
+ title={ISO/IEC19790(en) Cryptographic module},
+ institution={International Standard Organization (ISO)},
+ organization={International Electrotechnical Commission (IEC)},
+ author={Joint Technical Committee (JTC) 1 / SubCommittee (SC) 27 Information security - cybersecurity and privacy protection},
+ publisher={ISO copyright office},
+ year={2012},
+ url={http://iso.org/standard/52906.html}
 }
 %http://iso.org/committee/45306.html
 %http://wikipedia.org/wiki/ISO/IEC_JTC_1/SC_27
@@ -351,8 +446,8 @@
 %https://wikipedia.org/wiki/EIDAS
 
 @www{eIDASnode,
- title = {The status of eIDAS-Node implementation and eID use across Europe},
- publisher = {European Comission},
+ title={The status of eIDAS-Node implementation and eID use across Europe},
+ publisher={European Comission},
  url={http://ec.europa.eu/digital-building-blocks/wikis/display/DIGITAL/Country+overview}
 }
 
@@ -387,40 +482,47 @@
 
 % https://commission.europa.eu/strategy-and-policy/priorities-2019-2024/europe-fit-digital-age/european-digital-identity_en
 
-@legal{EU_eIDAS,
- title = {Electronic IDentification And trust Services (eIDAS) for electronic transactions in the internal market},
- publisher = {European Comission},
- url = {http://data.europa.eu/eli/reg/2014/910/oj},
- note = {http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014R0910}
+%@legal{EU_eIDAS,
+@misc{EU_eIDAS,
+ title={Electronic IDentification And trust Services (eIDAS) for electronic transactions in the internal market},
+ publisher={European Comission},
+ note={http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014R0910},
+ url={http://data.europa.eu/eli/reg/2014/910/oj}
 }
 
-@legal{EU_CRA,
- series = {},
- title = {Cyber Resilience Act (CRA)},
- author = {European Cybersecurity Competence Centre (ECCC)},
- publisher = {European Comission},
- year = {2022},
- url = {
-http://digital-strategy.ec.europa.eu/en/policies/cybersecurity-strategy
-http://digital-strategy.ec.europa.eu/en/library/cyber-resilience-act-factsheet
-http://digital-strategy.ec.europa.eu/en/library/cyber-resilience-act
-http://ec.europa.eu/newsroom/dae/redirection/document/89528
-http://eucyberact.org
-http://cryptomod.org
-http://iotac.eu }
+%@legal{EU_CRA,
+@misc{EU_CRA,
+%series={},
+ title={Cyber Resilience Act (CRA)},
+ author={European Cybersecurity Competence Centre (ECCC)},
+ publisher={European Comission},
+ year={2022},
+ note={
+ \url{http://digital-strategy.ec.europa.eu/en/policies/cybersecurity-strategy}
+ \url{http://digital-strategy.ec.europa.eu/en/library/cyber-resilience-act-factsheet}
+ \url{http://ec.europa.eu/newsroom/dae/redirection/document/89528}
+ \url{http://eucyberact.org}
+ \url{http://cryptomod.org}
+ \url{http://iotac.eu}
+ },
+ url={http://digital-strategy.ec.europa.eu/en/library/cyber-resilience-act}
 }
+
+% http://iso.org/standard/52906.html
+% http://wikipedia.org/wiki/FIPS_140-3
+
 % EDRi, NCUC, NPOC,... 
 % https://fsfe.org/news/2023/news-20230719-01.en.html
 % https://digital-strategy.ec.europa.eu/en/library/european-digital-identity-wallet-architecture-and-reference-framework
 
 @report{TEM_2022_33,
- series = {Publications of the Ministry of Economic Affairs and Employment},
- title = {Impacts of EU Legislation Concerning Digitalisation on Business Activities},
- author = {Heli Paavola},
- publisher = {Ministry of Economic Affairs and Employment of Finland},
- year = {2022},
- isbn = {978-952-327-744-1},
- url = {http://urn.fi/URN:ISBN:978-952-327-744-1}
+ series={Publications of the Ministry of Economic Affairs and Employment},
+ title={Impacts of EU Legislation Concerning Digitalisation on Business Activities},
+ author={Heli Paavola},
+ publisher={Ministry of Economic Affairs and Employment of Finland},
+ year={2022},
+ isbn={978-952-327-744-1},
+ url={http://urn.fi/URN:ISBN:978-952-327-744-1}
 }
 
 @www{DPA,
@@ -443,11 +545,11 @@ http://iotac.eu }
 
 %http://dvv.fi/arkkitehtuuri
 @booklet{VN_2017/16,
- series = {Prime Minister's Office Publications},
- title = {Business architecture of the Government enterprise architecture},
- publisher = {Prime Minister's Office},
- isbn = {978-952-287-498-6},
- url = {http://urn.fi/URN:ISBN:978-952-287-498-6}
+ series={Prime Minister's Office Publications},
+ title={Business architecture of the Government enterprise architecture},
+ publisher={Prime Minister's Office},
+ isbn={978-952-287-498-6},
+ url={http://urn.fi/URN:ISBN:978-952-287-498-6}
 }
 
 %Business architecture of the Government enterprise architecture
@@ -466,111 +568,111 @@ http://iotac.eu }
 %http://hosiaisluoma.fi/blog/process-modelling-with-archimate
 
 @www{FSFE_PublicCode,
- publisher = {Free Software Foundation Europe (FSFE)},
- url = {http://publiccode.eu}
+ publisher={Free Software Foundation Europe (FSFE)},
+ url={http://publiccode.eu}
 }
 
 %http://finanssivalvonta.fi
 %http://asiakastieto.fi
 
 @www{NationalEnforcementAuthorityFinland,
- title = {Entry Page},
- author = {National Enforcement Authority Finland},
- publisher = {National Enforcement Authority Finland},
- url = {http://ulosottolaitos.fi/en}
+ title={Entry Page},
+ author={National Enforcement Authority Finland},
+ publisher={National Enforcement Authority Finland},
+ url={http://ulosottolaitos.fi/en}
 }
 
 @article{GEELS201124,
- title = {The multi-level perspective on sustainability transitions: Responses to seven criticisms},
- journal = {Environmental Innovation and Societal Transitions},
- volume = {1},
- number = {1},
- pages = {24-40},
- year = {2011},
- issn = {2210-4224},
- doi = {http://doi.org/10.1016/j.eist.2011.02.002},
- url = {http://sciencedirect.com/science/article/pii/S2210422411000050},
- author = {Frank W. Geels},
- keywords = {Transitions, Sustainable development, Multi-level perspective, Response to critics},
- abstract = {The multi-level perspective (MLP) has emerged as a fruitful middle-range framework for analysing socio-technical transitions to sustainability. The MLP also received constructive criticisms. This paper summarises seven criticisms, formulates responses to them, and translates these into suggestions for future research. The criticisms relate to: (1) lack of agency, (2) operationalization of regimes, (3) bias towards bottom-up change models, (4) epistemology and explanatory style, (5) methodology, (6) socio-technical landscape as residual category, and (7) flat ontologies versus hierarchical levels.}
+ title={The multi-level perspective on sustainability transitions: Responses to seven criticisms},
+ journal={Environmental Innovation and Societal Transitions},
+ volume={1},
+ number={1},
+ pages={24-40},
+ year={2011},
+ issn={2210-4224},
+ doi={http://doi.org/10.1016/j.eist.2011.02.002},
+ url={http://sciencedirect.com/science/article/pii/S2210422411000050},
+ author={Frank W. Geels},
+ keywords={Transitions, Sustainable development, Multi-level perspective, Response to critics},
+ abstract={The multi-level perspective (MLP) has emerged as a fruitful middle-range framework for analysing socio-technical transitions to sustainability. The MLP also received constructive criticisms. This paper summarises seven criticisms, formulates responses to them, and translates these into suggestions for future research. The criticisms relate to: (1) lack of agency, (2) operationalization of regimes, (3) bias towards bottom-up change models, (4) epistemology and explanatory style, (5) methodology, (6) socio-technical landscape as residual category, and (7) flat ontologies versus hierarchical levels.}
 }
 
 @book{Karjaluoto2022,
- title = {Digimarkkinointi},
- author = {Heikki Karjaluoto - Niko Lahtinen - Joel Mero - Kimmo Pulkka},
- year = {2022},
- pages = {287},
- isbn = {9789521446085},
- publisher = {Alma Talent},
- type = {EPUB, Vesileimattu},
- url = { http://kirja.elisa.fi/ekirja/digimarkkinointi/esikatselu ,
- http://digimarkkinointi.fi/wp-content/uploads/2022/01/Digimarkkinointi-kirja-4-2048x1367.jpg },
- note = {Sivu 10-11, Kuva 1. Kirjan rakenne. Osa 1. Digitaalisen markkinoinnin strateginen analyysi ja suunnittelu (MVG -malli),
+ title={Digimarkkinointi},
+ author={Heikki Karjaluoto - Niko Lahtinen - Joel Mero - Kimmo Pulkka},
+ year={2022},
+ pages={287},
+ isbn={9789521446085},
+ publisher={Alma Talent},
+ type={EPUB, Vesileimattu},
+ note={Sivu 10-11, Kuva 1. Kirjan rakenne. Osa 1. Digitaalisen markkinoinnin strateginen analyysi ja suunnittelu (MVG -malli),
  Osa 2. Digitaalisen markkinoinnin operatiivinen toteutus (mRACE -malli).},
- abstract = {
+ abstract={
 Luo strategia, vie se k\"ayt\"ant\"o\"on, myy enemm\"an
 Digitaalinen markkinointi on t\"arke\"a osa liiketoimintaa: sen onnistuminen m\"a\"aritt\"a\"a myynnin onnistumisen, joka puolestaan m\"a\"aritt\"a\"a organisaation kasvutahdin. Koronaviruspandemia on lis\"aksi pakottanut organisaatiot digitalisoitumaan nopeasti, mik\"a on lis\"annyt digitaalisen markkinoinnin tarvetta entisest\"a\"an. Silti aiheesta ei ole ajantasaista teosta suomeksi.
 Kirja vastaa t\"ah\"an puutteeseen ja kertoo, miten erilaiset organisaatiot voivat kasvattaa myynti\"a\"an digitaalisen markkinoinnin avulla. Se opastaa, kuinka digitaaliselle markkinoinnille luodaan strategia, kuinka strategia vied\"a\"an k\"ayt\"ant\"o\"on ja kuinka markkinoinnin onnistumista ja myynnin kasvua mitataan.
-Teoksessa yhdistyy Suomen parhaaksi valitun digimarkkinointitoimiston sek\"a alan johtavien tutkijoiden ja opettajien osaaminen.}
+Teoksessa yhdistyy Suomen parhaaksi valitun digimarkkinointitoimiston sek\"a alan johtavien tutkijoiden ja opettajien osaaminen.},
+ howpublished={\url{http://kirja.elisa.fi/ekirja/digimarkkinointi/esikatselu}},
+ url={http://digimarkkinointi.fi/wp-content/uploads/2022/01/Digimarkkinointi-kirja-4-2048x1367.jpg}
 }
 
 @www{SDM2022,
- title = {mRACE-model},
- author = {Suomen Digimarkkinointi Oy},
- year = {2022},
- url = {http://digimarkkinointi.fi/mrace-malli},
- note = {Presents mRACE and MVG-models}
+ title={mRACE-model},
+ author={Suomen Digimarkkinointi Oy},
+ year={2022},
+ note={Presents mRACE and MVG-models},
+ url={http://digimarkkinointi.fi/mrace-malli}
 }
 
 @www{ChaffreyRACE,
- title = {RACE Planning Framework},
- author = {David Chaffrey},
- year = {2022},
- url = {http://smartinsights.com/tag/race-planning-system}
+ title={RACE Planning Framework},
+ author={David Chaffrey},
+ year={2022},
+ url={http://smartinsights.com/tag/race-planning-system}
 }
 
 @www{ChaffreySSSSS,
- title = {5S's goals of digital marketing},
- author = {David Chaffrey},
- year = {2020},
- url = { http://davechaffey.com/digital-marketing-glossary/5s-goals-of-digital-marketing ,
+ title={5S's goals of digital marketing},
+ author={David Chaffrey},
+ year={2020},
+ url={ http://davechaffey.com/digital-marketing-glossary/5s-goals-of-digital-marketing ,
  http://smartinsights.com/goal-setting-evaluation/goals-kpis/goals-for-your-digital-marketing }
 }
 
 @book{doi/10.2759/430161,
- author = {European Commission and Directorate-General for Communications Networks, Content and Technology and Blind K. - B\"ohm M. - Grzegorzewska P. - Katz A. - Muto S. - P\"atsch S. - Schubert, T.},
- title = {The impact of open source software and hardware on technological independence, competitiveness and innovation in the EU economy : final study report},
- edition = {1st edition},
- publisher = {Publications Office, Brussels, Luxemburg},
- year = {2021},
- isbn = {978-92-76-30980-2},
- number = {KK-04-21-080-EN-N},
- doi = {http://doi.org/10.2759/430161},
- url = {http://data.europa.eu/doi/10.2759/430161 , http://digital-strategy.ec.europa.eu/en/library/study-about-impact-open-source-software-and-hardware-technological-independence-competitiveness-and}
+ author={European Commission and Directorate-General for Communications Networks, Content and Technology and Blind K. - B\"ohm M. - Grzegorzewska P. - Katz A. - Muto S. - P\"atsch S. - Schubert, T.},
+ title={The impact of open source software and hardware on technological independence, competitiveness and innovation in the EU economy : final study report},
+ edition={1st edition},
+ publisher={Publications Office, Brussels, Luxemburg},
+ year={2021},
+ isbn={978-92-76-30980-2},
+ number={KK-04-21-080-EN-N},
+ doi={http://doi.org/10.2759/430161},
+ url={http://data.europa.eu/doi/10.2759/430161 , http://digital-strategy.ec.europa.eu/en/library/study-about-impact-open-source-software-and-hardware-technological-independence-competitiveness-and}
 }
 
 @conference{RenkenNRWC2022,
- author = {Sebastian Renken - Patrick Weber - Maximilian Werling},
- title = {Data Collaboration in Wholesale: a Case Study in Cooling Lubricant},
- year = {2022},
- organization = {Ferdinand-Steinbeis-Institut},
- school = {Ferdinand-Steinbeis-Institut, Stuttgart},
- publisher = {Ferdinand-Steinbeis-Institut, Stuttgart},
- institution = {Ferdinand-Steinbeis-Institut, Stuttgart},
- url = {http://nrwa.se/wp-content/uploads/2022/10/NRWC-2022-Conference-Programme-final.pdf},
- annote = {Figure 1: Value scenarios in Wholesale}
+ author={Sebastian Renken - Patrick Weber - Maximilian Werling},
+ title={Data Collaboration in Wholesale: a Case Study in Cooling Lubricant},
+ year={2022},
+ organization={Ferdinand-Steinbeis-Institut},
+ school={Ferdinand-Steinbeis-Institut, Stuttgart},
+ publisher={Ferdinand-Steinbeis-Institut, Stuttgart},
+ institution={Ferdinand-Steinbeis-Institut, Stuttgart},
+ annote={Figure 1: Value scenarios in Wholesale},
+ url={http://nrwa.se/wp-content/uploads/2022/10/NRWC-2022-Conference-Programme-final.pdf}
 }
 
 @conference{NNlostAtNRWC2022,
- author = {Ms/Mrs Lastname Firstname},
- title = {Jane Doe},
- year = {2022},
- organization = { },
- school = { },
- publisher = { },
- institution = { },
- url = {http://nrwa.se/wp-content/uploads/2022/10/NRWC-2022-Conference-Programme-final.pdf},
- annote = {Didn't write down presenter name, and offered abstracts do not give enough information to recall correct presentation right.}
+ author={Ms/Mrs Lastname Firstname},
+ title={Jane Doe},
+ year={2022},
+ organization={ },
+ school={ },
+ publisher={ },
+ institution={ },
+ annote={Didn't write down presenter name, and offered abstracts do not give enough information to recall correct presentation right.},
+ url={http://nrwa.se/wp-content/uploads/2022/10/NRWC-2022-Conference-Programme-final.pdf}
 }
 
 %Learning circle https://search.issuelab.org/resources/121/121.pdf
@@ -585,28 +687,29 @@ Teoksessa yhdistyy Suomen parhaaksi valitun digimarkkinointitoimiston sek\"a ala
 %https://www.iso.org/obp/ui/#iso:std:iso:9241:-210:ed-2:v1:en
 
 @series{VN_2022/72,
-author={Finnish Government},
-title={Government report: Digital Compass},
-series={Publications of the Finnish Government},
-year={2022-12-02},
+ author={Finnish Government},
+ title={Government report: Digital Compass},
+ series={Publications of the Finnish Government},
+%date={2022/12/02},
+ year={2022},
 %abstract={For the purpose of directing and managing the development of the digital transformation in Finland, a Digital Compass was drawn up. The work was steered by the ministerial working group on developing the digital transformation, the data economy and public administration and prepared by the coordination group for digitalisation. As a background to the Digital Compass, the report describes Finland's challenges and opportunities for the development and utilisation of digitalisation and the data economy. The Digital Compass is based on European values and the Digital Decade 2030 programme. It steers the development work and strengthens the shared understanding of the benefits, concepts and direction of digitalisation and the data economy. It also sets out priorities for Finland's advocacy work in the European Union. The Digital Compass shows the way as we create a common roadmap for the development of digitalisation and the data economy. According to the vision, we are building a digitally capable Finland that is attractive, competitive, sustainable and prosperous. We will achieve this through competitive and innovative business activities, high-quality expertise, broad-based education, people-oriented public services and safe and high-quality infrastructure. Achieving the objectives set for the Digital Compass calls for extensive systemic change; determined cooperation with the public and private sectors, universities, research institutes and organisations. To accelerate digitalisation and the data economy, we need investments and cross-sectoral practices.},
-publisher={Valtioneuvosto},	
+ publisher={Valtioneuvosto},	
 %issn={2490-0966},
-isbn={978-952-383-609-9},
+ isbn={978-952-383-609-9},
 %urn={URN:ISBN:978-952-383-609-9},
-url={http://julkaisut.valtioneuvosto.fi/handle/10024/164472}
+ url={http://julkaisut.valtioneuvosto.fi/handle/10024/164472}
 }
 
-https://julkisenhallinnonstrategia.fi
-https://julkisenhallinnonstrategia.fi/userassets/uploads/2021/01/Valtiovarainministerio_Julkisen_hallinnon_strategia_2020.pdf
-https://julkisenhallinnonstrategia.fi/strategian-taustaa/
-https://www.stat.fi/tup/satavuotias-suomi/suomi-maailman-karjessa.html
-https://valtioneuvosto.fi/documents/10623/12045794/DESI2019LANGFinland.pdf/8c034df4-5dc4-0d8e-5a38-4281d94af182/DESI2019LANGFinland.pdf.pdf
-http://otakantaa.fi
+%http://julkisenhallinnonstrategia.fi
+%http://julkisenhallinnonstrategia.fi/userassets/uploads/2021/01/Valtiovarainministerio_Julkisen_hallinnon_strategia_2020.pdf
+%http://julkisenhallinnonstrategia.fi/strategian-taustaa
+%http://stat.fi/tup/satavuotias-suomi/suomi-maailman-karjessa.html
+%http://valtioneuvosto.fi/documents/10623/12045794/DESI2019LANGFinland.pdf/8c034df4-5dc4-0d8e-5a38-4281d94af182/DESI2019LANGFinland.pdf.pdf
+%http://otakantaa.fi
 
-https://www.kuntaliitto.fi/julkaisut/2022/2186-kuntien-systeeminen-muutos-ja-suhde-asiakaskeskeisyyteen
-https://www.kuntaliitto.fi/kehityskompassi
-https://www.kuntaliitto.fi/kehittaminen-ja-digitalisaatio/kuntien-digikehittaminen/kuntien-digikehitystoimiston-digisumpit
+%http://kuntaliitto.fi/julkaisut/2022/2186-kuntien-systeeminen-muutos-ja-suhde-asiakaskeskeisyyteen
+%http://kuntaliitto.fi/kehityskompassi
+%http://kuntaliitto.fi/kehittaminen-ja-digitalisaatio/kuntien-digikehittaminen/kuntien-digikehitystoimiston-digisumpit
 
 
 @book{kartajaya2021marketing,
@@ -639,33 +742,377 @@ https://www.kuntaliitto.fi/kehittaminen-ja-digitalisaatio/kuntien-digikehittamin
  publisher={Wiley}
 }
 
+%http://wikipedia.org/wiki/Incoterms
 %http://wikipedia.org/wiki/Economic_sector
+%http://wikipedia.org/wiki/Product_classification
 %http://wikipedia.org/wiki/Industry_classification
 %http://msci.com/our-solutions/indexes/gics
 %http://wikipedia.org/wiki/Global_Industry_Classification_Standard
 %http://wikipedia.org/wiki/International_Standard_Industrial_Classification
 %http://wikipedia.org/wiki/Standard_Industrial_Classification
 %http://stat.fi/en/luokitukset/toimiala
+%http://gpc-browser.gs1.org
+@www{Relex,
+ title={Relex},
+ url={http://relexsolutions.com}
+}
+@www{AwakeAI,
+ title={AwakeAI},
+ url={http://awake.ai}
+}
+
+%http://wikipedia.org/wiki/Free_trade
+@www{WTO,
+ title={World Trade Organization},
+%note={\url{http://wikipedia.org/wiki/World_Trade_Organization}},
+ url={http://wto.org}
+}
+
+@www{Multilateral,
+ author={Wikipedia},
+ title={List of multilateral free trade agreements},
+ url={http://wikipedia.org/wiki/List_of_multilateral_free_trade_agreements}
+}
+
+@www{Bilateral,
+ author={Wikipedia},
+ title={List of bilateral free trade agreements},
+ url={http://wikipedia.org/wiki/List_of_bilateral_free_trade_agreements}
+}
+%http://wikipedia.org/wiki/List_of_country_groupings
+
+%http://wikipedia.org/wiki/List_of_trade_unions
+%http://wikipedia.org/wiki/List_of_federations_of_trade_unions
+
+@www{FreightShipping,
+ title={List of freight ship companies},
+ url={http://wikipedia.org/wiki/List_of_freight_ship_companies}
+}
+
+@www{ContainerShipping,
+ title={List of largest container shipping companies},
+ url={http://wikipedia.org/wiki/List_of_largest_container_shipping_companies}
+}
+
+@www{CargoAirlines,
+ title={List of cargo airlines},
+ note={\url{http://wikipedia.org/wiki/Cargo_airline}},
+ url={http://wikipedia.org/wiki/List_of_cargo_airlines}
+}
+
+@www{PassangerAirlines,
+ title={List of passanger airlines},
+ url={http://wikipedia.org/wiki/List_of_passenger_airlines}
+}
+
+@www{ContainerPorts,
+ title={List of busiest container ports},
+ url={http://wikipedia.org/wiki/List_of_busiest_container_ports}
+}
+
+@www{International_Airports,
+ title={List of international airports by country},
+ url={http://wikipedia.org/wiki/List_of_international_airports_by_country}
+}
+
+@www{AIS,
+ title={Automatic identification system},
+ url={http://wikipedia.org/wiki/Automatic_identification_system}
+}
+
+@www{ADS-B,
+ title={Automatic Dependant Surveillance--Broadcst},
+ url={http://wikipedia.org/wiki/Automatic_Dependent_Surveillance%E2%80%93Broadcast}
+}
+
+%http://wikipedia.org/wiki/ISO_3166-1
+%http://ebra.be/worldwide-registers
+%http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L:2011:174:TOC
+%http://wikipedia.org/wiki/Falsified_Medicines_Directive
+
+%@legal{Falsified_Medicines_Directive,
+@misc{Falsified_Medicines_Directive,
+ title={The Community code relating to medicinal products for human use, as regards the prevention of the entry into the legal supply chain of falsified medicinal products},
+ author={European Parliament, Council of the European Union},
+ eli={http://data.europa.eu/eli/dir/2011/62/oj},
+ url={http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32011L0062}
+}
+
+@www{EFPIA,
+ title={European Federation of Pharmaceutical Industries and Associations},
+%note={\url{http://wikipedia.org/wiki/European_Federation_of_Pharmaceutical_Industries_and_Associations}},
+ url={http://efpia.eu}
+}
+
+@www{FalsifiedMedicines,
+ title={Legal framework -- The Falsified Medicines Directive},
+ note={\url{http://health.ec.europa.eu/system/files/2016-11/dir_2011_62_en_0.pdf}},
+ url={http://health.ec.europa.eu/medicinal-products/falsified-medicines_en}
+}
+
+@www{EMVO,
+ title={European Medicines Verification Organisation},
+ note={EMVO \url{http://emvo-medicines.eu/evi}},
+ url={http://emvo-medicines.eu}
+}
+
+@www{FiMVO,
+ author={Jarmo Koponen -- M{\aa}rten Lamp{\'e}n},
+ title={Uusi l\"a\"akevarmennusj\"arjestelm\"a k\"aytt\"o\"on -- v\"a\"arenn\"oksien ja palautettujen l\"a\"akkeiden pit\"aisi jatkossa pys\"ahty\"a kuin sein\"a\"an},
+ year={2019},
+ note={FiMVO \url{http://laakevarmennus.fi/en}},
+ url={http://yle.fi/a/3-10620163}
+}
+
+@www{YleTemplate,
+%series={A-talk},
+%series={A-teema},
+%series={A-studio},
+%series={What Was Investigated (MOT)},
+ title={YleTemplate},
+ author={YLE},
+%date={2023/08/31},
+ year={2023},
+ publisher={Finnish Public Broadcasting Company, YLE (YLEisradio)},
+ note={\url{http://yle.fi/a/3456}},
+ url={http://areena.yle.fi/?seek=1234}
+}
+
+
+@www{Amazon,
+ title={Amazon},
+ note={\url{http://amazon.de}},
+ url={http://amazon.com}
+}
+
+@www{eBay,
+ title={eBay},
+ note={\url{http://ebay.de}},
+ url={http://ebay.com}
+}
+
+@www{Oda,
+ title={Oda},
+ note={\url{http://oda.com/fi}},
+ url={http://oda.com}
+}
+
+@www{Wolt,
+ title={Wolt},
+ note={\url{http://wolt.com/retailers}},
+ url={http://wolt.com}
+}
+
+@www{Foodora,
+ title={Foodora},
+ note={\url{http://foodora.com/groceries}},
+ url={http://foodora.com}
+}
+
+%http://getapp.com
+%http://softwarefinder.com
+%http://softasuperstore.com http://ohjelmistot.fi
+%http://apps.microsoft.com
+%http://play.google.com/store/apps
+%http://workspace.google.com/intl/en/features
+%http://apple.com/store
+%http://apps.apple.com
+%http://snapcraft.io/store
+
+@www{WaterBalls,
+ title={Pohjanmaan tomaatintuottajat haluavat "mauttomat vesipallot" pois tuotannosta -- nyt kuluttaja ostaa mautonta ja makeaa samasta kotimaisen tomaatin korista},
+ author={Kaisa Uusitalo - Jarkko Heikkinen},
+%date={2021/07/01},
+ year={2021},
+ publisher={Finnish Public Broadcasting Company, YLE (YLEisradio)},
+ note={\url{http://areena.yle.fi/1-50621947}},
+ url={http://yle.fi/a/3-11984901}
+}
+
+@www{GS1Standards,
+ title={Global Standards 1},
+ publisher={GS1},
+ note={\url{http://gs1.org/standards/log}},
+ url={http://gs1.org/standards/standards-overview}
+}
+
+@book{GS1GenSpec,
+ title={GS1 General Spesifications Standard},
+ publisher={GS1},
+ url={http://ref.gs1.org/standards/genspecs}
+}
+
+@www{SSCC, %Serial Shipping Container Code
+ title={GS1 Logistic Label Guideline},
+ publisher={GS1},
+ note={\url{http://gs1.org/standards/gs1-logistic-label-guideline}},
+ url={http://gs1.org/standards/id-keys/sscc}
+}
+
+%http://wikipedia.org/wiki/Global_Trade_Item_Number
+@www{GTIN,
+ title={Global Trade Item Number (GTIN)},
+ publisher={GS1},
+ note={\url{http://gs1.org/standards/id-keys}},
+ url={http://gs1.org/standards/id-keys/gtin}
+}
+
+%http://wikipedia.org/wiki/ISO_6346
+%http://bic-code.org/identification-number
+%http://container-xchange.com/blog/container-number
+%https://fi.wikipedia.org/wiki/GRAI
+%http://gs1.fi/fi/asiakastuki/tunnisteet-ja-viivakoodit/nain-yksiloit-kiertavan-kuormankantajan-grai
+@www{GRAI,
+ title={Global Returnable Asset Identifier (GRAI)},
+ publisher={GS1},
+ note={\url{http://gs1.org/standards/id-keys}},
+ url={http://gs1.org/standards/id-keys/grai}
+}
+
+@www{IFCO,
+ title={IFCO},
+ publisher={IFCO},
+ note={\url{http://ifco.com/food-packaging-innovations-retail-4-0}},
+ url={http://ifco.com}
+}
+
+@www{EUROPOOL,
+ title={Euro Pool System},
+ note={\url{http://europoolsystem.com/download-centre}},
+ url={http://europoolsystem.com}
+}
+
+@www{MonofloInternational,
+ title={Monoflo International},
+ note={\url{http://miworldwide.com/media/uploads/mi_specsheets_automationsol_022723.pdf}},
+ url={http://miworldwide.com}
+}
+
+@www{FEFCO,
+ title={The European Federation of Corrugated Board Manufacturers},
+ note={\url{http://fefco.org/technical-information/fefco-code}},
+ url={http://fefco.org/technical-information/standards-guidelines}
+}
+
+@www{CajoMakeBright,
+ title={CAJO MAKEBRIGHT FOR THE PACKAGING INDUSTRY},
+ note={\url{http://youtu.be/d4TElX6AmYw}},
+ url={http://cajotechnologies.com/solutions/solutions-for-packaging-industry}
+}
+%http://cajotechnologies.com/cajo2021/wp-content/uploads/CAJO_MAKEBRIGHT_brochure_EN_v.1.5.pdf
+
+
+https://www.youtube.com/watch?v=wdLF6hTXJEk
+
+	 https://www.youtube.com/watch?v=oo8KBoP_kvQ
+	 https://youtu.be/oo8KBoP_kvQ?t=98
+	 https://www.youtube.com/watch?v=oo8KBoP_kvQ
+
+https://www.macsa.com/en/cardboard-laser-marking/
+https://www.youtube.com/watch?v=e_iIAqFdq30
+
+@www{GS1Architecture,
+ title={GS1 Architecture},
+ publisher={GS1},
+ note={http://gs1.org/standards/gs1-architecture},
+ url={http://gs1.org/architecture}
+}
+
+%GEPIR (Global Electronic Party Information Registry)
+%\url{http://gepir.gs1.org}
+%\url{http://gs1.org/gdsn}
+%\url{http://gs1.org/id-keys}
+%\url{http://gs1.org/standards/id-keys}
+%\url{http://gs1.org/standards/id-keys/grai}
+%\url{http://gs1.org/barcodes}
+%\url{http://gs1.org/epc-rfid}
+%\url{http://gs1.org/standards}
+%\url{http://gs1.org/standards/log}
+%\url{http://gs1.org/standards/gdsn}
+%\url{http://gs1.org/standards/barcodes/1d-general-distribution}
+%\url{http://gs1.org/standards/barcodes/2d}
+%\url{http://gs1.org/standards/gs1-digital-link}
+%\url{http://gs1.org/standards/gs1-global-data-model}
+%\url{http://gs1.org/services/gdsn/certified-data-pools-list}},
+
+%http://gs1.org/standards/gs1-system-architecture-document/current-standard
+%http://gs1.org/standards/gln-data-model-solution-standard/current-standard#5-GLN-data-model-attributes
+%http://gs1.org/standards/gs1-global-data-model-attribute-implementation-guideline/current-standard#11-Digital-Assets
+%http://gs1.org/standards/gs1-global-data-model/gdm-training-tool
+%http://gs1.org/standards/gdsn
+%http://navigator.gs1.org/gdm
+%http://gs1.org/services
+%http://github.com/orgs/gs1/repositories?type=all
+%http://gs1.org/gdsn-standards
+%http://gs1.org/standards/gs1-architecture
+%EIFU (Electronic Information For Use)
+%GS1 Digital Link URI (4296 char)
+%GS1 DataMatrix (2335 char)
+%ISO/IEC 15459
+%http://gs1.org/docs/barcodes/GS1_Barcodes_Fact_Sheet-overview_of_all_GS1_barcodes.pdf
+%https://www.gs1.org/docs/gdsn/3.1/BMS_GDSN_Trade_Item_Modules_r3p1p25_i1p40_June_28_2023.pdf
+%http://gs1us.org/content/dam/gs1us/documents/industries-insights/innovation/GS1-US-Building-the-Metaverse.pdf
+%http://youtube.com/@gs1global
+
+@www{Finland2DcodesY27,
+ title={Kaupan ala testaa jo viivakoodien korvaajaa -- tuleva 2D-koodi kertoo p\"aiv\"ayksen jo kassalla ja automatisoi alennukset},
+ author={Jarmo Koponen},
+%date={2023/09/08},
+ year={2023},
+ %http://gs1.org/standards/barcodes/2d
+ note={\url{http://gs1.fi/en/standards/gs1-standards-capture-information}},
+ url={http://yle.fi/a/74-20048783}
+}
+% http://gs1.fi/fi/uutiset/2d-viivakoodit-kayttoon-viimeistaan-2027-0
+% https://www.tivi.fi/uutiset/ruokakauppojen-hyllyille-tulee-nakyva-muutos-s-ryhman-hintalaput-kytkeytyvat-verkkoon/77f62571-1354-4260-b73a-1f3ec5db8717
+% S-ryhma vaihtaa ruokakauppojensa hyllyjen hintalaput keskitetysti yllapidettaviin elektronisiin iot-hintalappuihin. S-ryhma on tehnyt ratkaisusta viisivuotisen puitesopimuksen ruotsalaisen Pricerin kanssa.
+% S-ryhman paivittaistavarakaupan johtaja Sampo Paallysaho
 
 %https://www.ruokavirasto.fi/en/about-us/guides/oiva-hehe/heh-06e/06-food-temperature-management/
 %https://www.finlex.fi/fi/laki/alkup/1994/19940165
+%http://ec.europa.eu/consumers/odr
+
+%http://wikipedia.org/wiki/List_of_software_package_management_systems
+%http://debian.org
+%http://debian.org/doc/debian-policy/ch-relationships.html
+%http://debian.org/doc/debian-policy/ch-controlfields.html
+%http://wikipedia.org/wiki/Linux_Standard_Base
+%http://fedoraproject.org
+%http://ftp.rpm.org/max-rpm
+%http://ftp.rpm.org/max-rpm/ch-rpm-depend.html
+%http://ftp.rpm.org/max-rpm/s1-rpm-depend-auto-depend.html
+%http://ftp.rpm.org/max-rpm/s1-rpm-depend-manual-dependencies.html
+%http://learn.microsoft.com/en-us/windows/package-manager winget
+%http://wikipedia.org/wiki/List_of_archive_formats
+
+%http://jenkins.io
+%http://wikipedia.org/wiki/Feature_toggle
+%http://wikipedia.org/wiki/Continuous_deployment
+%http://wikipedia.org/wiki/Continuous_delivery
+%http://wikipedia.org/wiki/Continuous_integration
+%http://wikipedia.org/wiki/Scaled_agile_framework
+%http://wikipedia.org/wiki/Test-driven_development
+%http://wikipedia.org/wiki/Scrum_(software_development)
+%http://wikipedia.org/wiki/Scrumban
+%http://wikipedia.org/wiki/Kanban
+%http://wikipedia.org/wiki/DevOps
 
 @book{GallowayScottTheFour2017,
- author = {Galloway Scott},
- title = {The four : the hidden DNA of Amazon, Apple, Facebook and Google},
- year = {2017},
- pages = {336},
- publisher = {Random House 2017, Bantam Press, London 2017, Portfolio/Penguin, New York 2017,2018, Corgi Books, London 2018},
- isbn = {9781473542105},
- url = {http://books.google.fi/books?id=_eTACwAAQBAJ}
+ author={Galloway Scott},
+ title={The four : the hidden DNA of Amazon, Apple, Facebook and Google},
+ year={2017},
+ pages={336},
+ publisher={Random House 2017, Bantam Press, London 2017, Portfolio/Penguin, New York 2017,2018, Corgi Books, London 2018},
+ isbn={9781473542105},
+ url={http://books.google.fi/books?id=_eTACwAAQBAJ}
 }
 
 @www{MetaFaceShops,
-title={Shops on Facebook and Instagram. Sell from anywhere in your customisable online shop.},
-author={Meta},
-publisher={Meta},
-note={http://meta.com},
-url = {http://facebook.com/business/shops}
+ title={Shops on Facebook and Instagram. Sell from anywhere in your customisable online shop.},
+ author={Meta},
+ publisher={Meta},
+ note={http://meta.com},
+ url={http://facebook.com/business/shops}
 }
 %http://meta.com/?utm_content=31202
 %http://facebook.com/business/help/623552069600842
@@ -712,22 +1159,22 @@ url = {http://facebook.com/business/shops}
 % 7. Organize around AI - Teach AI to support new economy sector besides the others, and let it learn from particilants actions, weighting each with they trustability ratio.
 
 @booklet{VM_40_2023,
- series = {Publications of the Ministry of Finance},
- author = {Aleksi Kopponen},
- editor = {Niko Ruostetsaari - R\"asanen Tommi},
- publisher = {Ministry of Finance},
- title = {Ihmiskeskeinen ja el\"am\"antapahtumal\"aht\"oinen julkinen hallinto : N\"ak\"okulmia kansallisesta teko\"alyohjelmasta (AuroraAI)},
- year = {2023},
- isbn = {978-952-367-282-6},
- %issn = {1797-9714},
- %urn = {http://urn.fi/URN:ISBN:978-952-367-282-6},
- url = {https://julkaisut.valtioneuvosto.fi/handle/10024/164923}
+ series={Publications of the Ministry of Finance},
+ author={Aleksi Kopponen},
+ editor={Niko Ruostetsaari - R\"asanen Tommi},
+ publisher={Ministry of Finance},
+ title={Ihmiskeskeinen ja el\"am\"antapahtumal\"aht\"oinen julkinen hallinto : N\"ak\"okulmia kansallisesta teko\"alyohjelmasta (AuroraAI)},
+ year={2023},
+ isbn={978-952-367-282-6},
+ %issn={1797-9714},
+ %urn={http://urn.fi/URN:ISBN:978-952-367-282-6},
+ url={https://julkaisut.valtioneuvosto.fi/handle/10024/164923}
 }
 
 %http://maemo.org
 %http://wiki.maemo.org/Remote_desktop
 %http://devuan.org
-%http://debian.org
+%http://debian.org http://mobian-project.org  http://raspbian.org http://droidian.org
 %http://sailfishos.org
 %http://wikipedia.org/wiki/Mer_(software_distribution)
 %http://wikipedia.org/wiki/MeeGo
@@ -745,24 +1192,25 @@ url = {http://facebook.com/business/shops}
 %http://wikipedia.org/wiki/List_of_Nokia_products
 %http://fi.wikipedia.org/wiki/Nokia_(yritys)#Maailman_suurin_matkapuhelinvalmistaja
 %http://hmdglobal.com
-%http://raspbian.org
 %http://pureos.net
-%http://puri.sm
-%http://pine64eu.com
+%http://puri.sm https://shop.puri.sm/product-category/phones 1000-2200 USD
+%http://pine64eu.com https://pine64eu.com/product/pinephone-pro-explorer-edition 600Eur
 %http://fairphone.com
 %http://jolla.com
-%http://volla.online
+%http://volla.online Multi Boot
 %http://ubports.com
-%http://fxtec.com
+%http://fxtec.com Open Boot
 %http://wikipedia.org/wiki/List_of_open-source_mobile_phones
 %http://steamdeck.com http://store.steampowered.com/steamos
+%http://ubuntu.com http://ubports.com
+android.com source.android.com lineageos.org http://f-droid.org
 
 @www{LTEonMoon,
- title = {LTE on the Moon matters for networks on Earth},
- author = {Thierry Klein - Trent Martin},
- publisher = {Nokia},
- year = {2023},
- url = {http://nokia.com/thought-leadership/articles/network-on-the-moon}
+ title={LTE on the Moon matters for networks on Earth},
+ author={Thierry Klein - Trent Martin},
+ publisher={Nokia},
+ year={2023},
+ url={http://nokia.com/thought-leadership/articles/network-on-the-moon}
 }
 %http://youtu.be/Mql5Qx9e9qk
 
@@ -781,34 +1229,37 @@ url = {http://facebook.com/business/shops}
 %http://rfc-editor.org/info/bcp14
 %http://ietf.org/rfc/bcp/bcp14.txt
 %http://rfc-editor.org/refs/ref-bcp14.txt
-@standard{bcp14,
- series = {Best Current Practices},
- number = {14},
- howpublished = {BCP 14},
- title = {Key words for use in RFCs to Indicate Requirement Levels. Ambiguity of Uppercase vs Lowercase in Key Words},
- author = {Scott O. Bradner - Barry Leiba},
- year = {2017},
- month = {may},
- publisher = {Internet Engineering Task Force (IETF)},
- url = {http://rfc-editor.org/info/bcp14}
+%@standard{bcp14,
+@misc{bcp14,
+ series={Best Current Practices},
+ number={14},
+ howpublished={BCP 14},
+ title={Key words for use in RFCs to Indicate Requirement Levels. Ambiguity of Uppercase vs Lowercase in Key Words},
+ author={Scott O. Bradner - Barry Leiba},
+ year={2017},
+ month={may},
+ publisher={Internet Engineering Task Force (IETF)},
+ url={http://rfc-editor.org/info/bcp14}
 }
-%publisher = {RFC Editor},
+%publisher={RFC Editor},
 
 %http://datatracker.ietf.org/doc/rfc2119/bibtex
 %http://ietf.org/rfc/rfc2119.txt
-@standard{rfc2119,
- series = {Request for Comments},
- number = {2119},
- howpublished = {RFC 2119},
- publisher = {RFC Editor},
- doi = {10.17487/RFC2119},
- url = {http://www.rfc-editor.org/info/rfc2119},
- author = {Scott O. Bradner},
- title = {Key words for use in RFCs to Indicate Requirement Levels},
- pagetotal = {3},
- year = {1997},
- month = {mar},
- abstract =  {In many standards track documents several words are used to signify the requirements in the specification. These words are often capitalized. This document defines these words as they should be interpreted in IETF documents. This document specifies an Internet Best Current Practices for the Internet Community, and requests discussion and suggestions for improvements.}
+%@standard{rfc2119,
+@misc{rfc2119,
+ series={Request for Comments},
+ number={2119},
+ howpublished={RFC 2119},
+ publisher={RFC Editor},
+ doi={10.17487/RFC2119},
+ url={http://www.rfc-editor.org/info/rfc2119},
+ author={Scott O. Bradner},
+ title={Key words for use in RFCs to Indicate Requirement Levels},
+ pagetotal={3},
+ year={1997},
+%month={mar},
+ month={11},
+ abstract= {In many standards track documents several words are used to signify the requirements in the specification. These words are often capitalized. This document defines these words as they should be interpreted in IETF documents. This document specifies an Internet Best Current Practices for the Internet Community, and requests discussion and suggestions for improvements.}
 }
 
 %http://ietf.org/rfc/rfc0879.txt
@@ -816,35 +1267,37 @@ url = {http://facebook.com/business/shops}
 
 %https://datatracker.ietf.org/doc/rfc8174/bibtex/
 %http://ietf.org/rfc/rfc8174.txt
-@standard{rfc8174,
- series = {Request for Comments},
- number = {8174},
- howpublished = {RFC 8174},
- publisher = {RFC Editor},
- doi = {10.17487/RFC8174},
- url = {http://www.rfc-editor.org/info/rfc8174},
- author = {Barry Leiba},
- title = {Ambiguity of Uppercase vs Lowercase in RFC 2119 Key Words},
- pagetotal = {4},
- year = {2017},
- month = {may},
- abstract = {RFC 2119 specifies common key words that may be used in protocol specifications. This document aims to reduce the ambiguity by clarifying that only UPPERCASE usage of the key words have the defined special meanings.}
+%@standard{rfc8174,
+@misc{rfc8174,
+ series={Request for Comments},
+ number={8174},
+ howpublished={RFC 8174},
+ publisher={RFC Editor},
+ doi={10.17487/RFC8174},
+ url={http://www.rfc-editor.org/info/rfc8174},
+ author={Barry Leiba},
+ title={Ambiguity of Uppercase vs Lowercase in RFC 2119 Key Words},
+ pagetotal={4},
+ year={2017},
+ month={may},
+ abstract={RFC 2119 specifies common key words that may be used in protocol specifications. This document aims to reduce the ambiguity by clarifying that only UPPERCASE usage of the key words have the defined special meanings.}
 }
 
 %http://datatracker.ietf.org/doc/rfc8729/bibtex
-@standard{rfc8729,
- series = {Request for Comments},
- number = {8729},
- howpublished = {RFC 8729},
- publisher = {RFC Editor},
- doi = {10.17487/RFC8729},
- url = {http://www.rfc-editor.org/info/rfc8729},
- author = {Russ Housley and Leslie Daigle},
- title = {The RFC Series and RFC Editor},
- pagetotal = {18},
- year = {2020},
- month = {feb},
- abstract =  {This document describes the framework for an RFC Series and an RFC Editor function that incorporate the principles of organized community involvement and accountability that has become necessary as the Internet technical community has grown, thereby enabling the RFC Series to continue to fulfill its mandate. This document obsoletes RFC 4844.}
+%@standard{rfc8729,
+@misc{rfc8729,
+ series={Request for Comments},
+ number={8729},
+ howpublished={RFC 8729},
+ publisher={RFC Editor},
+ doi={10.17487/RFC8729},
+ url={http://www.rfc-editor.org/info/rfc8729},
+ author={Russ Housley and Leslie Daigle},
+ title={The RFC Series and RFC Editor},
+ pagetotal={18},
+ year={2020},
+ month={feb},
+ abstract= {This document describes the framework for an RFC Series and an RFC Editor function that incorporate the principles of organized community involvement and accountability that has become necessary as the Internet technical community has grown, thereby enabling the RFC Series to continue to fulfill its mandate. This document obsoletes RFC 4844.}
 }
 
 %http://wikipedia.org/wiki/Maximum_transmission_unit
@@ -874,14 +1327,14 @@ url = {http://facebook.com/business/shops}
 %http://cran.r-project.org/web/packages/MASS/citation.html
 
 @Book{MASS,
- title = {Modern Applied Statistics with S},
- author = {W. N. Venables and B. D. Ripley},
- publisher = {Springer},
- edition = {Fourth},
- address = {New York},
- year = {2002},
- isbn = {0-387-95457-0},
- url = {https://www.stats.ox.ac.uk/pub/MASS4/}
+ title={Modern Applied Statistics with S},
+ author={W. N. Venables and B. D. Ripley},
+ publisher={Springer},
+ edition={Fourth},
+ address={New York},
+ year={2002},
+ isbn={0-387-95457-0},
+ url={https://www.stats.ox.ac.uk/pub/MASS4/}
 }
 
 %http://cran.r-project.org/web/packages/MASS/MASS.pdf
@@ -910,34 +1363,34 @@ url = {http://facebook.com/business/shops}
 }
 
 @www{SevenVirtues,
- title = {Seven virtues},
- publisher = {Wikipedia},
- note = {faith fortitude hope justice love prudence temperance},
- url = {http://wikipedia.org/wiki/Seven_virtues}
+ title={Seven virtues},
+ publisher={Wikipedia},
+ note={faith fortitude hope justice love prudence temperance},
+ url={http://wikipedia.org/wiki/Seven_virtues}
 }
 
 @www{SevenSins,
- title = {Seven deadly sins},
- publisher = {Wikipedia},
- note = {envy gluttony greed lust pride sloth wrath},
- url = {http://wikipedia.org/wiki/Seven_deadly_sins}
+ title={Seven deadly sins},
+ publisher={Wikipedia},
+ note={envy gluttony greed lust pride sloth wrath},
+ url={http://wikipedia.org/wiki/Seven_deadly_sins}
 }
 
 @www{PerformanceDevelTop500, % http://top500.org/system/180048 http://top500.org/lists/top500
- title = {Performance Development},
- note = {Top 1 not bending as much as average},
- url = {http://top500.org/statistics/perfdevel}
+ title={Performance Development},
+ note={Top 1 not bending as much as average},
+ url={http://top500.org/statistics/perfdevel}
 }
 
 % http://wikipedia.org/wiki/Dennard_scaling#Relation_with_Moore's_law_and_computing_performance
 @www{DennartScaling,
- title = {Dennart scaling},
- url = {http://wikipedia.org/wiki/Dennard_scaling}
+ title={Dennart scaling},
+ url={http://wikipedia.org/wiki/Dennard_scaling}
 }
 % http://wikipedia.org/wiki/Performance_per_watt
 @www{KoomeysLaw,
- title = {Koomeys's Law},
- url = {http://wikipedia.org/wiki/Koomey%27s_law}
+ title={Koomeys's Law},
+ url={http://wikipedia.org/wiki/Koomey%27s_law}
 }
 %   http://hpcg-benchmark.org
 % http://wikipedia.org/wiki/Moore%27s_law

@@ -79,6 +79,7 @@ $(DOC).pdf : $(DOC).bbl $(DOC).ind $(DOC).tex ; $(LATEX) $(DOC).tex
 # Clean: Remove temporary files.
 .PHONY: clean 
 clean :
+	touch $(DOC).pdf
 	mv -f $(DOC).pdf ..
 	$(CLEAN)
 	make -C $(SUBM) clean
