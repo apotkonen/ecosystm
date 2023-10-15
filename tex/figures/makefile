@@ -3,6 +3,7 @@
 # Definitions:
 DIA2EPS = dia -t eps
 FIG2EPS = fig2dev -L eps
+FONT2FO = sed -e 's/Times-Roman/LinLibertineO/g'
 SVG2EPS = inkscape -o
 GPL2EPS = gnuplot -c
 
@@ -27,7 +28,7 @@ epsfiles = $(diatoeps) $(figtoeps) $(svgtoeps) $(gpltoeps)
 %.eps: %.dia
 	$(DIA2EPS) $<
 %.eps: %.fig
-	$(FIG2EPS) $< $@
+	$(FIG2EPS) $< | $(FONT2FO) > $@
 %.eps: %.svg
 	$(SVG2EPS) $@ $<
 %.eps: %.gpl
@@ -39,5 +40,5 @@ all: $(epsfiles)
 # Clean: Remove temporary typesetting program input files.
 .PHONY: clean
 clean:
-	rm -f clean *.eps *.pdf
+	rm -f clean all *.eps *.pdf
 
