@@ -18,6 +18,13 @@
 \label{cooperation_competition}
 \index{cooperation competition}
 
+Trade is the converging, diverging, material and related data delivery, where
+several forwarding -- diverging -- converging -delivery phases may occur in
+row. Does the final customer delivery be converged delivery to certain time
+and address or in timespace diverged delivery around the globe depends from
+case does it be groceries delivery to home or travel services delivery around
+globe.
+
 \section{Global setup}
 \label{global_setup}
 \index{global setup}
@@ -66,13 +73,13 @@ barcodes are requested and already taken in use to fait against falsified
 medicines \cite{FalsifiedMedicines}. EMVO\cite{EMVO} and FiMVO\cite{FiMVO}
 organizations represent arrangment in EU and Finland.
 
-Good example from standardization efforts implementation in practice in Finland
-is Falsified Medicines
+Good example from standardization efforts implementation in practice in
+Finland is Falsified Medicines
 Directive\cite{Falsified_Medicines_Directive}\cite{FalsifiedMedicines}\cite{EMVO}\cite{FiMVO},
 driven two dimension "bar codes" our groceries have agreed to take in use at
 2027\cite{GS1DL2027}\cite{Finland2DcodesY27}. These new methods make possible
-to have digital twin from product label information, and there can be lot and
-serial numbers linked into information. Which make possible to have bookeeping
+to have digital twin from product label information, and there can be lot,
+serial number and link to information. This make possible to have bookeeping
 from deliveries and this way allow detection of duplicates and never created
 product items, most likely falsified products. Now same methods are taken into
 use more widely, for the groceries at latest 2027.
@@ -110,10 +117,48 @@ just made. Knowing those open possibility to view rest from tree-structure.
 
 The GS1 (Global Standards 1) already does similar setup which is explained on
 Phil Archer's video GS1 Digital Link Layer Cake\cite{GS1DigitalLink}.
+Returnable Trade Item (RTI) (Pallet Tagging) Guideline\cite{RTIguideline}
+explains how to use RAdio frequency IdentificatioN (RAIN (ISO/IEC 18000-63))
+RFID\cite{UHFforRAIN}, which now days can carry pallet SSCC and/or some digital
+link information besides pallet Global Returnable Asset Identifier (GRAI),
+number which is usually also visible as barcode printed to RFID-sticker
+or other sticker surface and glued to pallet by pallet vendor
+\cite{EPalIPal}\cite{AllGreenPallets}\cite{iGpsRFID}\cite{SRSpallets}\cite{CramerRFIDoption}\cite{ChepIcoQube}.
+Sticker can carry data with pallet to make sure that information
+is received even if direct digital data delivery has been failed.
+
+Current practice is still to use printed SSCC sticker on pallet even if pallet
+has RAIN RFID capable to carry SSCC information. There are also cases and boxes
+available with the 1D and 2D barcodes having unique GRAI and perhaps RAIN RFID
+capable to carry product information. Consumer law is requiring printed label
+which in practice is cardboard or sticker holding data which could be
+delivered, referred with the RFID and those 1D, 2D barcodes can be as well used
+as references to product information.
 
 \subsection{Improvement needs}
 \label{improvement_needs}
 \index{improvement needs}
+
+Existing law demands physical product label information, normally this one time
+label, sticker is representing failure point, extra environmental load and cost.
+
+We need legal change which states that is enough that label is readable for
+every humanbeing with mobile device and also without device from shop electric
+e-paper labels on shop shelves, displays.
+
+\subsubsection{Customer readable RFID}
+\label{improvement_NFC_RFID}
+\index{improvement NFC RFID}
+
+Because of this customer user readable RFID requirement and users mobile devices
+existing NFC (Near Field Communication) capability we should enable NFC compatible
+RFID's on each Returnable Trade Item (RTI); case, box, etc. Pure RAIN RFID is not
+enough. There are NFC and RAIN RFID compatible Integrated Circuit (IC)\cite{RAINFC}
+stickers available\cite{RAINFC_label} working with the both standards.
+
+\subsubsection{Trade Item ID's active usage}
+\label{improvement_1D_2D_RFID_usage}
+\index{improvement 1D 2D RFID usage}
 
 Good example from low utilization of digitalization created business process
 improvement possiblities is underutilization of Global Asset Identifiers (GAI):
@@ -125,11 +170,12 @@ Note: Here Asset means actual physical item, and in further text we use only
 abbreviations GIAI and GRAI to avoid mix to this document own asset defintion.
 
 Logistic related companies, services provide GRAI\cite{GRAI} identified, with
-the optional serial number globally identifiably numbered returnable assets;
-cases, crates, totes, dolly's, roll cages, pallets and recycle services for
-reusable ones. And there isn't any problem for cardboard box producer to add
-laser to add GIAI\cite{GIAI}\cite{CajoMakeBright} to unfolded box blanks so
-that cardboard boxes are also globally uniquely identifiable.
+the optional serial number, when well managed, globally uniquely numbered,
+identified returnable assets; cases, crates, totes, dolly's, roll cages,
+pallets and recycle services for reusable ones. And there isn't any problem for
+cardboard box producer to add laser to add GIAI\cite{GIAI}\cite{CajoMakeBright}
+to unfolded box blanks so that cardboard boxes are also globally uniquely
+identifiable.
 
 When boxes/cases are identifiable then vendors can add service which gives
 status from box creation time or crate last washing time. Producer can have
@@ -164,15 +210,16 @@ product label information together. Clear benefits arrive when carboard/paper
 labels can be left out and detailed label information can be put to ePaper on
 store whitout printing.
 
-Extra benefits are gained from small farmers possibility to add different
-products mixed to pallet layers and pallet extraction can map numbers again
-to actual product information. This mixed pallet configuration is common for
-small farmes selling they products on market places. They know when they
-handpic cases from pallet on van backbox. Automated extration of multiproduct
-pallets can be automated too, at the first for the pallets having same size
-cases through pallet, but this is doable also for the pallets having different
-cases on different layers. Extractor has to read next layer case identies to
-get to know what it is picking next and then has to do layer picking according
+Extra benefits are gained from small farmers, berry pickers, from possibility
+to add different products mixed to pallet layers and pallet extraction can map
+numbers again to actual product information. This mixed pallet configuration
+is common for small producers, vendors selling they products on market places.
+They know what products there are when they handpic cases from pallet on van
+backbox. Automated extration of multiproduct pallets can be done. At the
+beginning automated extraction only for pallets having same size cases
+through pallet, but this is doable for the pallets having different cases on
+different layers. Extractor has to read next layer case identies to get to
+know what it is picking next and then has to do layer picking according
 to that. And for next layer same, detect what you are lifting from ID's and
 with the pallet SSCC delivered information be avare from next layer picking
 parameters. Repeat this until pallet is extracted and read case ID's from line
@@ -183,7 +230,9 @@ representing case in the system. This make possible to increase transport
 fillrate because we do not need several pallets stacked, instead we have single
 pallet having mixed configuration and it's still possible to do automated
 extraction for it. Finnish tomato farmers have been requesting these
-capabilites \cite{WaterBalls}.
+capabilites \cite{WaterBalls}. The number of major volume variety available
+from local farmers is low about ten pieces. Globally there are much more
+varietes \cite{PlantVariety}.
 
 \subsection{Competition}
 \label{competition}
