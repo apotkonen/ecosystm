@@ -116,8 +116,36 @@ perhaps locked with Customer ID, Order ID -pair customer knows due order
 just made. Knowing those open possibility to view rest from tree-structure.
 
 The GS1 (Global Standards 1) already does similar setup which is explained on
-Phil Archer's video GS1 Digital Link Layer Cake\cite{GS1DigitalLink}.
-Returnable Trade Item (RTI) (Pallet Tagging) Guideline\cite{RTIguideline}
+Phil Archer's video GS1 Digital Link Layer Cake\cite{GS1DigitalLink}. On the
+video mentioned resolver is different what resolver means in this document.
+The GS1 resolver redirects to one item asset materials. When looking figure
+\ref{fig:resolut} on page \pageref{fig:resolut} the GS1 resolver manages only
+materials under the leaf node, single item related marketing material. This
+document defined resolver belongs to Phil's video mentioned applications that
+GS1 does not do. This document defined resolver does resolving from whole
+asset structure containing competing products too. Resolution is based to
+customer user needs, and  can bring up assets combining several products to one
+resolution result, sellable asset item, subtree from the whole asset. Another
+significant difference is between GS1 and this document mentioned asset is the
+ID's lenght, where GS1 ID's can be short due that GS1 manages those as they
+business, this document defined ID's are mostly coming from cyptographic
+hashing algorithms\cite{CompHashFunc} and are by default longer.
+It might be possible to mix both on cooperative setup until GS1 run out they
+short ID's or recycle those, which leads to ID's having double meaning, at
+least in archive. The online archive which should respond and give infomation
+even after Copyright time \cite{CopyrightLengths} has gone afte 110 years.
+Practical online archive answer should come before normal network timeout 30s
+has been gone. % Or at least with the retry before one minute
+% timeout time has gone. Actual technology fulfilling the online archieve
+% response time requirement varies on time. Currently this makes possible to
+% use on cheapest Tera Byte (TB) price HDD's now available in 18-20TB sizes on
+% taxed price level 10-15\euro/TB, at least when purchased full rack at time.
+% With the 30s response requirement the HDD archive can be spinned down and
+% according to indexing the correct nodes are spinned up during the given 30s
+% or maximum one minute, where network timeout can be stretched when we know
+% that we accessing really old archived data.
+
+The GS1 Returnable Trade Item (RTI) (Pallet Tagging) Guideline\cite{RTIguideline}
 explains how to use RAdio frequency IdentificatioN (RAIN (ISO/IEC 18000-63))
 RFID\cite{UHFforRAIN}, which now days can carry pallet SSCC and/or some digital
 link information besides pallet Global Returnable Asset Identifier (GRAI),
@@ -131,9 +159,10 @@ Current practice is still to use printed SSCC sticker on pallet even if pallet
 has RAIN RFID capable to carry SSCC information. There are also cases and boxes
 available with the 1D and 2D barcodes having unique GRAI and perhaps RAIN RFID
 capable to carry product information. Consumer law is requiring printed label
-which in practice is cardboard or sticker holding data which could be
+which in practice is printed cardboard or sticker holding data which could be
 delivered, referred with the RFID and those 1D, 2D barcodes can be as well used
-as references to product information.
+as references into delivery packed product information during delivery and
+sales time.
 
 \subsection{Improvement needs}
 \label{improvement_needs}
