@@ -135,15 +135,18 @@ short ID's or recycle those, which leads to ID's having double meaning, at
 least in archive. The online archive which should respond and give infomation
 even after Copyright time \cite{CopyrightLengths} has gone after 110 years.
 Practical online archive answer should come before normal network timeout 30s
-has been gone. % Or at least with the retry before one minute
-% timeout time has gone. Actual technology fulfilling the online archieve
-% response time requirement varies on time. Currently this makes possible to
-% use on cheapest Tera Byte (TB) price HDD's now available in 18-20TB sizes on
-% taxed price level 10-15\euro/TB, at least when purchased full rack at time.
-% With the 30s response requirement the HDD archive can be spinned down and
-% according to indexing the correct nodes are spinned up during the given 30s
-% or maximum one minute, where network timeout can be stretched when we know
-% that we accessing really old archived data.
+has been gone. If frequently requesting wery old and rarely used asset
+infromation, it might make sense to extend network timeout to one minute. 
+% Or at least answer should come with the retry after one minute timeout time
+% has gone. Actual technology fulfilling the online archieve response time
+% requirement varies on time. Currently this makes possible to use on cheapest
+% Tera Byte (TB) price HDD's now available in 18-20TB sizes on taxed price
+% level 10-15\euro/TB, at least when purchased full rack at time. With the 30s
+% response requirement the HDD archive can be spinned down and according to
+% indexing the correct nodes are spinned up during the given 30s or maximum
+% one minute timeout. Network timeout can be stretched when we know that we
+% accessing really old archived data someone may stored offline on disk or
+% tape robot mediums.
 
 The GS1 Returnable Trade Item (RTI) (Pallet Tagging) Guideline\cite{RTIguideline}
 explains how to use RAdio frequency IdentificatioN (RAIN (ISO/IEC 18000-63))
