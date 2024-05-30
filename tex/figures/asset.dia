@@ -118,6 +118,7 @@
     </dia:attribute>
   </dia:diagramdata>
   <dia:layer name="Background" visible="true" connectable="false"/>
+  <dia:layer name="Background" visible="true" connectable="false"/>
   <dia:layer name="Background" visible="true" connectable="true" active="true">
     <dia:object type="UML - Class" version="0" id="O0">
       <dia:attribute name="obj_pos">
@@ -3857,16 +3858,16 @@
     </dia:object>
     <dia:object type="UML - Association" version="2" id="O43">
       <dia:attribute name="obj_pos">
-        <dia:point val="5.11,12.95"/>
+        <dia:point val="4.7825,12.95"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="5.06,9.4552;19.2775,13.63"/>
+        <dia:rectangle val="4.7325,9.4552;19.2775,13.63"/>
       </dia:attribute>
       <dia:attribute name="meta">
         <dia:composite type="dict"/>
       </dia:attribute>
       <dia:attribute name="orth_points">
-        <dia:point val="5.11,12.95"/>
+        <dia:point val="4.7825,12.95"/>
         <dia:point val="5.95,12.95"/>
         <dia:point val="5.95,10.3752"/>
         <dia:point val="19.2275,10.3752"/>
