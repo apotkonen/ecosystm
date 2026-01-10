@@ -34,7 +34,7 @@
 %	LANGUAGE:	LaTeX2e to be used with latexmk
 %
 %
-%	REFERENCE ( http://latex-project.org/help/books , http://tug.org/books ):
+%	REFERENCE (http://latex-project.org/help/books, http://tug.org/books):
 %
 %	- http://ctan.org/starter
 %	  http://ctan.org/pkg/amsmath
@@ -55,7 +55,7 @@
 %	  United States of America 1994.
 %
 %	- https://archive.org/details/B-001-002-139
-%	  https://archive.org/items/B-001-002-139/Donald_Knuth_-_The_Tex_Book.pdf
+%	https://archive.org/items/B-001-002-139/Donald_Knuth_-_The_Tex_Book.pdf
 %	  https://ctan.org/tex-archive/systems/knuth/dist/tex/texbook.tex
 %	  https://visualmatheditor.equatheque.net/doc/texbook.pdf
 %
@@ -106,6 +106,7 @@
 %\usepackage[finnish]{babel}
 \usepackage[english]{babel}
 \usepackage{advdate}
+\usepackage{fontspec} % /usr/share/doc/texlive-doc/latex/fontspec/fontspec.pdf
 %\usepackage{siunitx}
 %\usepackage{eurosym}
 \usepackage[gen]{eurosym}
@@ -113,13 +114,65 @@
 %\usepackage[official]{eurosym}
 %\usepackage{icomma} % desimalcomma
 %\usepackage{amstex}
-\usepackage{amsmath}
+%\usepackage{amsmath}
 %\usepackage{amssymb}
+\usepackage{unicode-math} % doc/texlive-doc/latex/unicode-math/unicode-math.pdf
+%\usepackage{notomath} % doc/texlive-doc/fonts/notomath/notomath-doc.pdf
+%\usepackage{newtxtext,newtxmath} % http://ctan.org/pkg/newtx
+%\usepackage{newpxtext,newpxmath} % http://ctan.org/pkg/newpx
+%\usepackage{textcomp} % http://ctan.org/pkg/textcomp
+
+%/usr/share/doc/texlive-doc/latex/fontspec/fontspec.pdf
+%/usr/share/texlive/texmf-dist/fonts/TYPE/MODE/SUPPLIER/TYPEFACE/dpiNNN/
+% http://gnu.org/software/freefont
+% http://savannah.gnu.org/projects/unifont
+% /usr/share/texlive/texmf-dist/fonts/opentype/public/gnu-freefont
+% /usr/share/texlive/texmf-dist/fonts/truetype/public/gnu-freefont
+% GNU Font exception http://gnu.org/licenses/gpl-faq.html#FontException
+% fc-list :foundry=psbk:fontformat=CFF family
+%  Junicode http://wikipedia.org/wiki/Junicode
+%	Junicode Two Beta
+% fc-list :lang=en family | grep Linux
+%  Linux Libertine http://wikipedia.org/wiki/Linux_Libertine
+%	Linux Biolinum O
+%	Linux Libertine O
+%\setmainfont{Linux Biolinum O}
+\setmainfont{Linux Libertine O}
+% fc-list :foundry=GNU :fontformat=TrueType family
+%  GNU FreeFont http://wikipedia.org/wiki/GNU_FreeFont
+%  GNU Unifont http://wikipedia.org/wiki/GNU_Unifont
+%	FreeSerif
+%	FreeSans
+%	FreeMono
+%	Unifont
+%\setmainfont{FreeSerif}
+%\setmainfont{FreeSans}
+%\setmonofont{FreeMono}
+%\setmainfont{Unifont}
+
+% SIL Open Font License https://openfontlicense.org
+% fc-list :foundry=GOOG:fontformat=CFF family | sort -u
+%  Noto http://wikipedia.org/wiki/Noto_fonts
+%	Noto Mono
+%	Noto Sans
+%	Noto Serif
+% fc-list :foundry=SIL :fontformat=CFF family
+%  Gentium http://wikipedia.org/wiki/Gentium
+%	Gentium
+%\setmainfont{Noto Sans}
+%\setmainfont{Noto Serif}
+%\setmonofont{Noto Mono}
+%\setmainfont{Gentium}
+
 \usepackage{nicefrac}
 %\usepackage{xfrac}
 \usepackage{float}
 %\usepackage{titlepic}
 \usepackage{graphicx} % /usr/share/doc/texlive-doc/latex/graphics/graphicx.pdf
+%http://wikipedia.org/wiki/Web_colors
+%http://wikipedia.org/wiki/X11_color_names
+%http://wikipedia.org/wiki/File:SVG1.1_Color_Swatch.svg
+%http://w3.org/TR/2003/REC-SVG11-20030114/types.html#ColorKeywords
 %\usepackage{svg} % /usr/share/doc/texlive-doc/latex/svg/svg.pdf
 %\usepackage{svg-extract} 
 \usepackage{epsfig} % /usr/share/doc/texlive-doc/latex/graphics/epsfig.pdf
@@ -128,7 +181,7 @@
 \usepackage{supertabular}
 %\usepackage{verbatim}
 %\usepackage{hyphenat}
-%\hyphenation{e-com-mer-ce com-mer-ce mind-ed ex-ist-ing providers en-tre-pre-neurs}
+%\hyphenation{e-com-mer-ce com-mer-ce mind-ed ex-ist-ing en-tre-pre-neurs}
 \usepackage{csquotes} % /usr/share/doc/texlive-doc/latex/csquotes/csquotes.pdf
 \usepackage{biblatex}
 %\usepackage{url} % /usr/share/doc/texlive-doc/latex/url/url.pdf
